@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* FormicAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* FormicAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* FormicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* FormicViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* FormicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* FormicViewController.m */; };
+		D7155EAA0F30DB9700C65C16 /* tap-to-start.png in Resources */ = {isa = PBXBuildFile; fileRef = D7155EA90F30DB9700C65C16 /* tap-to-start.png */; };
+		D7222C170F24F0930075F1A0 /* piece-2-0-0.png in Resources */ = {isa = PBXBuildFile; fileRef = D7222C050F24F0930075F1A0 /* piece-2-0-0.png */; };
+		D7222C180F24F0930075F1A0 /* piece-0-0-0.png in Resources */ = {isa = PBXBuildFile; fileRef = D7222C060F24F0930075F1A0 /* piece-0-0-0.png */; };
+		D7222C190F24F0930075F1A0 /* piece-1-0-0.png in Resources */ = {isa = PBXBuildFile; fileRef = D7222C070F24F0930075F1A0 /* piece-1-0-0.png */; };
+		D7222C1A0F24F0930075F1A0 /* piece-0-2-0.png in Resources */ = {isa = PBXBuildFile; fileRef = D7222C080F24F0930075F1A0 /* piece-0-2-0.png */; };
+		D7222C1B0F24F0930075F1A0 /* piece-1-1-0.png in Resources */ = {isa = PBXBuildFile; fileRef = D7222C090F24F0930075F1A0 /* piece-1-1-0.png */; };
+		D7222C1C0F24F0930075F1A0 /* piece-2-1-0.png in Resources */ = {isa = PBXBuildFile; fileRef = D7222C0A0F24F0930075F1A0 /* piece-2-1-0.png */; };
+		D7222C1D0F24F0930075F1A0 /* piece-1-0-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D7222C0B0F24F0930075F1A0 /* piece-1-0-1.png */; };
+		D7222C1E0F24F0930075F1A0 /* piece-0-1-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D7222C0C0F24F0930075F1A0 /* piece-0-1-1.png */; };
+		D7222C1F0F24F0930075F1A0 /* piece-0-0-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D7222C0D0F24F0930075F1A0 /* piece-0-0-1.png */; };
+		D7222C200F24F0930075F1A0 /* piece-0-1-0.png in Resources */ = {isa = PBXBuildFile; fileRef = D7222C0E0F24F0930075F1A0 /* piece-0-1-0.png */; };
+		D7222C210F24F0930075F1A0 /* piece-2-2-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D7222C0F0F24F0930075F1A0 /* piece-2-2-1.png */; };
+		D7222C220F24F0930075F1A0 /* piece-2-2-0.png in Resources */ = {isa = PBXBuildFile; fileRef = D7222C100F24F0930075F1A0 /* piece-2-2-0.png */; };
+		D7222C230F24F0930075F1A0 /* piece-2-1-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D7222C110F24F0930075F1A0 /* piece-2-1-1.png */; };
+		D7222C240F24F0930075F1A0 /* piece-2-0-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D7222C120F24F0930075F1A0 /* piece-2-0-1.png */; };
+		D7222C250F24F0930075F1A0 /* piece-1-1-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D7222C130F24F0930075F1A0 /* piece-1-1-1.png */; };
+		D7222C260F24F0930075F1A0 /* piece-1-2-0.png in Resources */ = {isa = PBXBuildFile; fileRef = D7222C140F24F0930075F1A0 /* piece-1-2-0.png */; };
+		D7222C270F24F0930075F1A0 /* piece-1-2-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D7222C150F24F0930075F1A0 /* piece-1-2-1.png */; };
+		D7222C280F24F0930075F1A0 /* piece-0-2-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D7222C160F24F0930075F1A0 /* piece-0-2-1.png */; };
+		D729A1CE0F267AC60028F429 /* FormicTimerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D729A1CC0F267AC60028F429 /* FormicTimerView.m */; };
+		D764C4200F28F1AC003FBDB2 /* progress-3.png in Resources */ = {isa = PBXBuildFile; fileRef = D764C4110F28F1AC003FBDB2 /* progress-3.png */; };
+		D764C4210F28F1AC003FBDB2 /* progress-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D764C4120F28F1AC003FBDB2 /* progress-1.png */; };
+		D764C4220F28F1AC003FBDB2 /* progress-11.png in Resources */ = {isa = PBXBuildFile; fileRef = D764C4130F28F1AC003FBDB2 /* progress-11.png */; };
+		D764C4230F28F1AC003FBDB2 /* progress-10.png in Resources */ = {isa = PBXBuildFile; fileRef = D764C4140F28F1AC003FBDB2 /* progress-10.png */; };
+		D764C4240F28F1AC003FBDB2 /* progress-14.png in Resources */ = {isa = PBXBuildFile; fileRef = D764C4150F28F1AC003FBDB2 /* progress-14.png */; };
+		D764C4250F28F1AC003FBDB2 /* progress-8.png in Resources */ = {isa = PBXBuildFile; fileRef = D764C4160F28F1AC003FBDB2 /* progress-8.png */; };
+		D764C4260F28F1AC003FBDB2 /* progress-15.png in Resources */ = {isa = PBXBuildFile; fileRef = D764C4170F28F1AC003FBDB2 /* progress-15.png */; };
+		D764C4270F28F1AC003FBDB2 /* progress-4.png in Resources */ = {isa = PBXBuildFile; fileRef = D764C4180F28F1AC003FBDB2 /* progress-4.png */; };
+		D764C4280F28F1AC003FBDB2 /* progress-13.png in Resources */ = {isa = PBXBuildFile; fileRef = D764C4190F28F1AC003FBDB2 /* progress-13.png */; };
+		D764C4290F28F1AC003FBDB2 /* progress-5.png in Resources */ = {isa = PBXBuildFile; fileRef = D764C41A0F28F1AC003FBDB2 /* progress-5.png */; };
+		D764C42A0F28F1AC003FBDB2 /* progress-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D764C41B0F28F1AC003FBDB2 /* progress-2.png */; };
+		D764C42B0F28F1AC003FBDB2 /* progress-6.png in Resources */ = {isa = PBXBuildFile; fileRef = D764C41C0F28F1AC003FBDB2 /* progress-6.png */; };
+		D764C42C0F28F1AC003FBDB2 /* progress-12.png in Resources */ = {isa = PBXBuildFile; fileRef = D764C41D0F28F1AC003FBDB2 /* progress-12.png */; };
+		D764C42D0F28F1AC003FBDB2 /* progress-9.png in Resources */ = {isa = PBXBuildFile; fileRef = D764C41E0F28F1AC003FBDB2 /* progress-9.png */; };
+		D764C42E0F28F1AC003FBDB2 /* progress-7.png in Resources */ = {isa = PBXBuildFile; fileRef = D764C41F0F28F1AC003FBDB2 /* progress-7.png */; };
+		D76DCC710F33712A00FAF6F0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D76DCC700F33712A00FAF6F0 /* Icon.png */; };
+		D792877A0F1A6A0A00418AF9 /* FormicView.m in Sources */ = {isa = PBXBuildFile; fileRef = D79287790F1A6A0A00418AF9 /* FormicView.m */; };
+		D792878F0F1A6AFD00418AF9 /* FormicGame.m in Sources */ = {isa = PBXBuildFile; fileRef = D792878E0F1A6AFD00418AF9 /* FormicGame.m */; };
+		D795EAAB0F2F877100730801 /* game-over.png in Resources */ = {isa = PBXBuildFile; fileRef = D795EAAA0F2F877100730801 /* game-over.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* FormicAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormicAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* FormicAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormicAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Formic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Formic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* FormicViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FormicViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* FormicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormicViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* FormicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormicViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Formic_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Formic_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7155EA90F30DB9700C65C16 /* tap-to-start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tap-to-start.png"; path = "Images/tap-to-start.png"; sourceTree = "<group>"; };
+		D7222C050F24F0930075F1A0 /* piece-2-0-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "piece-2-0-0.png"; path = "Images/piece-2-0-0.png"; sourceTree = "<group>"; };
+		D7222C060F24F0930075F1A0 /* piece-0-0-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "piece-0-0-0.png"; path = "Images/piece-0-0-0.png"; sourceTree = "<group>"; };
+		D7222C070F24F0930075F1A0 /* piece-1-0-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "piece-1-0-0.png"; path = "Images/piece-1-0-0.png"; sourceTree = "<group>"; };
+		D7222C080F24F0930075F1A0 /* piece-0-2-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "piece-0-2-0.png"; path = "Images/piece-0-2-0.png"; sourceTree = "<group>"; };
+		D7222C090F24F0930075F1A0 /* piece-1-1-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "piece-1-1-0.png"; path = "Images/piece-1-1-0.png"; sourceTree = "<group>"; };
+		D7222C0A0F24F0930075F1A0 /* piece-2-1-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "piece-2-1-0.png"; path = "Images/piece-2-1-0.png"; sourceTree = "<group>"; };
+		D7222C0B0F24F0930075F1A0 /* piece-1-0-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "piece-1-0-1.png"; path = "Images/piece-1-0-1.png"; sourceTree = "<group>"; };
+		D7222C0C0F24F0930075F1A0 /* piece-0-1-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "piece-0-1-1.png"; path = "Images/piece-0-1-1.png"; sourceTree = "<group>"; };
+		D7222C0D0F24F0930075F1A0 /* piece-0-0-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "piece-0-0-1.png"; path = "Images/piece-0-0-1.png"; sourceTree = "<group>"; };
+		D7222C0E0F24F0930075F1A0 /* piece-0-1-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "piece-0-1-0.png"; path = "Images/piece-0-1-0.png"; sourceTree = "<group>"; };
+		D7222C0F0F24F0930075F1A0 /* piece-2-2-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "piece-2-2-1.png"; path = "Images/piece-2-2-1.png"; sourceTree = "<group>"; };
+		D7222C100F24F0930075F1A0 /* piece-2-2-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "piece-2-2-0.png"; path = "Images/piece-2-2-0.png"; sourceTree = "<group>"; };
+		D7222C110F24F0930075F1A0 /* piece-2-1-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "piece-2-1-1.png"; path = "Images/piece-2-1-1.png"; sourceTree = "<group>"; };
+		D7222C120F24F0930075F1A0 /* piece-2-0-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "piece-2-0-1.png"; path = "Images/piece-2-0-1.png"; sourceTree = "<group>"; };
+		D7222C130F24F0930075F1A0 /* piece-1-1-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "piece-1-1-1.png"; path = "Images/piece-1-1-1.png"; sourceTree = "<group>"; };
+		D7222C140F24F0930075F1A0 /* piece-1-2-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "piece-1-2-0.png"; path = "Images/piece-1-2-0.png"; sourceTree = "<group>"; };
+		D7222C150F24F0930075F1A0 /* piece-1-2-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "piece-1-2-1.png"; path = "Images/piece-1-2-1.png"; sourceTree = "<group>"; };
+		D7222C160F24F0930075F1A0 /* piece-0-2-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "piece-0-2-1.png"; path = "Images/piece-0-2-1.png"; sourceTree = "<group>"; };
+		D729A1CC0F267AC60028F429 /* FormicTimerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormicTimerView.m; sourceTree = "<group>"; };
+		D729A1CD0F267AC60028F429 /* FormicTimerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormicTimerView.h; sourceTree = "<group>"; };
+		D764C4110F28F1AC003FBDB2 /* progress-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "progress-3.png"; path = "Images/progress-3.png"; sourceTree = "<group>"; };
+		D764C4120F28F1AC003FBDB2 /* progress-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "progress-1.png"; path = "Images/progress-1.png"; sourceTree = "<group>"; };
+		D764C4130F28F1AC003FBDB2 /* progress-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "progress-11.png"; path = "Images/progress-11.png"; sourceTree = "<group>"; };
+		D764C4140F28F1AC003FBDB2 /* progress-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "progress-10.png"; path = "Images/progress-10.png"; sourceTree = "<group>"; };
+		D764C4150F28F1AC003FBDB2 /* progress-14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "progress-14.png"; path = "Images/progress-14.png"; sourceTree = "<group>"; };
+		D764C4160F28F1AC003FBDB2 /* progress-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "progress-8.png"; path = "Images/progress-8.png"; sourceTree = "<group>"; };
+		D764C4170F28F1AC003FBDB2 /* progress-15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "progress-15.png"; path = "Images/progress-15.png"; sourceTree = "<group>"; };
+		D764C4180F28F1AC003FBDB2 /* progress-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "progress-4.png"; path = "Images/progress-4.png"; sourceTree = "<group>"; };
+		D764C4190F28F1AC003FBDB2 /* progress-13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "progress-13.png"; path = "Images/progress-13.png"; sourceTree = "<group>"; };
+		D764C41A0F28F1AC003FBDB2 /* progress-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "progress-5.png"; path = "Images/progress-5.png"; sourceTree = "<group>"; };
+		D764C41B0F28F1AC003FBDB2 /* progress-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "progress-2.png"; path = "Images/progress-2.png"; sourceTree = "<group>"; };
+		D764C41C0F28F1AC003FBDB2 /* progress-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "progress-6.png"; path = "Images/progress-6.png"; sourceTree = "<group>"; };
+		D764C41D0F28F1AC003FBDB2 /* progress-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "progress-12.png"; path = "Images/progress-12.png"; sourceTree = "<group>"; };
+		D764C41E0F28F1AC003FBDB2 /* progress-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "progress-9.png"; path = "Images/progress-9.png"; sourceTree = "<group>"; };
+		D764C41F0F28F1AC003FBDB2 /* progress-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "progress-7.png"; path = "Images/progress-7.png"; sourceTree = "<group>"; };
+		D76DCC700F33712A00FAF6F0 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Images/Icon.png; sourceTree = "<group>"; };
+		D79287780F1A6A0A00418AF9 /* FormicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormicView.h; sourceTree = "<group>"; };
+		D79287790F1A6A0A00418AF9 /* FormicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormicView.m; sourceTree = "<group>"; };
+		D792878D0F1A6AFD00418AF9 /* FormicGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormicGame.h; sourceTree = "<group>"; };
+		D792878E0F1A6AFD00418AF9 /* FormicGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormicGame.m; sourceTree = "<group>"; };
+		D795EAAA0F2F877100730801 /* game-over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "game-over.png"; path = "Images/game-over.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* FormicAppDelegate.h */,
+				1D3623250D0F684500981E51 /* FormicAppDelegate.m */,
+				D792878D0F1A6AFD00418AF9 /* FormicGame.h */,
+				D792878E0F1A6AFD00418AF9 /* FormicGame.m */,
+				28D7ACF60DDB3853001CB0EB /* FormicViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* FormicViewController.m */,
+				D79287780F1A6A0A00418AF9 /* FormicView.h */,
+				D79287790F1A6A0A00418AF9 /* FormicView.m */,
+				D729A1CD0F267AC60028F429 /* FormicTimerView.h */,
+				D729A1CC0F267AC60028F429 /* FormicTimerView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Formic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Formic_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D76DCC700F33712A00FAF6F0 /* Icon.png */,
+				D7222C030F24F0870075F1A0 /* Images */,
+				2899E5210DE3E06400AC0155 /* FormicViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7222C030F24F0870075F1A0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D764C4080F28F187003FBDB2 /* Pieces */,
+				D764C4090F28F193003FBDB2 /* Progressbar */,
+				D795EAAA0F2F877100730801 /* game-over.png */,
+				D7155EA90F30DB9700C65C16 /* tap-to-start.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		D764C4080F28F187003FBDB2 /* Pieces */ = {
+			isa = PBXGroup;
+			children = (
+				D7222C050F24F0930075F1A0 /* piece-2-0-0.png */,
+				D7222C060F24F0930075F1A0 /* piece-0-0-0.png */,
+				D7222C070F24F0930075F1A0 /* piece-1-0-0.png */,
+				D7222C080F24F0930075F1A0 /* piece-0-2-0.png */,
+				D7222C090F24F0930075F1A0 /* piece-1-1-0.png */,
+				D7222C0A0F24F0930075F1A0 /* piece-2-1-0.png */,
+				D7222C0B0F24F0930075F1A0 /* piece-1-0-1.png */,
+				D7222C0C0F24F0930075F1A0 /* piece-0-1-1.png */,
+				D7222C0D0F24F0930075F1A0 /* piece-0-0-1.png */,
+				D7222C0E0F24F0930075F1A0 /* piece-0-1-0.png */,
+				D7222C0F0F24F0930075F1A0 /* piece-2-2-1.png */,
+				D7222C100F24F0930075F1A0 /* piece-2-2-0.png */,
+				D7222C110F24F0930075F1A0 /* piece-2-1-1.png */,
+				D7222C120F24F0930075F1A0 /* piece-2-0-1.png */,
+				D7222C130F24F0930075F1A0 /* piece-1-1-1.png */,
+				D7222C140F24F0930075F1A0 /* piece-1-2-0.png */,
+				D7222C150F24F0930075F1A0 /* piece-1-2-1.png */,
+				D7222C160F24F0930075F1A0 /* piece-0-2-1.png */,
+			);
+			name = Pieces;
+			sourceTree = "<group>";
+		};
+		D764C4090F28F193003FBDB2 /* Progressbar */ = {
+			isa = PBXGroup;
+			children = (
+				D764C4110F28F1AC003FBDB2 /* progress-3.png */,
+				D764C4120F28F1AC003FBDB2 /* progress-1.png */,
+				D764C4130F28F1AC003FBDB2 /* progress-11.png */,
+				D764C4140F28F1AC003FBDB2 /* progress-10.png */,
+				D764C4150F28F1AC003FBDB2 /* progress-14.png */,
+				D764C4160F28F1AC003FBDB2 /* progress-8.png */,
+				D764C4170F28F1AC003FBDB2 /* progress-15.png */,
+				D764C4180F28F1AC003FBDB2 /* progress-4.png */,
+				D764C4190F28F1AC003FBDB2 /* progress-13.png */,
+				D764C41A0F28F1AC003FBDB2 /* progress-5.png */,
+				D764C41B0F28F1AC003FBDB2 /* progress-2.png */,
+				D764C41C0F28F1AC003FBDB2 /* progress-6.png */,
+				D764C41D0F28F1AC003FBDB2 /* progress-12.png */,
+				D764C41E0F28F1AC003FBDB2 /* progress-9.png */,
+				D764C41F0F28F1AC003FBDB2 /* progress-7.png */,
+			);
+			name = Progressbar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Formic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Formic" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Formic;
+			productName = Formic;
+			productReference = 1D6058910D05DD3D006BFB54 /* Formic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Formic" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Formic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* FormicViewController.xib in Resources */,
+				D7222C170F24F0930075F1A0 /* piece-2-0-0.png in Resources */,
+				D7222C180F24F0930075F1A0 /* piece-0-0-0.png in Resources */,
+				D7222C190F24F0930075F1A0 /* piece-1-0-0.png in Resources */,
+				D7222C1A0F24F0930075F1A0 /* piece-0-2-0.png in Resources */,
+				D7222C1B0F24F0930075F1A0 /* piece-1-1-0.png in Resources */,
+				D7222C1C0F24F0930075F1A0 /* piece-2-1-0.png in Resources */,
+				D7222C1D0F24F0930075F1A0 /* piece-1-0-1.png in Resources */,
+				D7222C1E0F24F0930075F1A0 /* piece-0-1-1.png in Resources */,
+				D7222C1F0F24F0930075F1A0 /* piece-0-0-1.png in Resources */,
+				D7222C200F24F0930075F1A0 /* piece-0-1-0.png in Resources */,
+				D7222C210F24F0930075F1A0 /* piece-2-2-1.png in Resources */,
+				D7222C220F24F0930075F1A0 /* piece-2-2-0.png in Resources */,
+				D7222C230F24F0930075F1A0 /* piece-2-1-1.png in Resources */,
+				D7222C240F24F0930075F1A0 /* piece-2-0-1.png in Resources */,
+				D7222C250F24F0930075F1A0 /* piece-1-1-1.png in Resources */,
+				D7222C260F24F0930075F1A0 /* piece-1-2-0.png in Resources */,
+				D7222C270F24F0930075F1A0 /* piece-1-2-1.png in Resources */,
+				D7222C280F24F0930075F1A0 /* piece-0-2-1.png in Resources */,
+				D764C4200F28F1AC003FBDB2 /* progress-3.png in Resources */,
+				D764C4210F28F1AC003FBDB2 /* progress-1.png in Resources */,
+				D764C4220F28F1AC003FBDB2 /* progress-11.png in Resources */,
+				D764C4230F28F1AC003FBDB2 /* progress-10.png in Resources */,
+				D764C4240F28F1AC003FBDB2 /* progress-14.png in Resources */,
+				D764C4250F28F1AC003FBDB2 /* progress-8.png in Resources */,
+				D764C4260F28F1AC003FBDB2 /* progress-15.png in Resources */,
+				D764C4270F28F1AC003FBDB2 /* progress-4.png in Resources */,
+				D764C4280F28F1AC003FBDB2 /* progress-13.png in Resources */,
+				D764C4290F28F1AC003FBDB2 /* progress-5.png in Resources */,
+				D764C42A0F28F1AC003FBDB2 /* progress-2.png in Resources */,
+				D764C42B0F28F1AC003FBDB2 /* progress-6.png in Resources */,
+				D764C42C0F28F1AC003FBDB2 /* progress-12.png in Resources */,
+				D764C42D0F28F1AC003FBDB2 /* progress-9.png in Resources */,
+				D764C42E0F28F1AC003FBDB2 /* progress-7.png in Resources */,
+				D795EAAB0F2F877100730801 /* game-over.png in Resources */,
+				D7155EAA0F30DB9700C65C16 /* tap-to-start.png in Resources */,
+				D76DCC710F33712A00FAF6F0 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* FormicAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* FormicViewController.m in Sources */,
+				D792877A0F1A6A0A00418AF9 /* FormicView.m in Sources */,
+				D792878F0F1A6AFD00418AF9 /* FormicGame.m in Sources */,
+				D729A1CE0F267AC60028F429 /* FormicTimerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Formic_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = Formic;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Formic_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = Formic;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Formic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Formic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,218 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* SphereNetAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {777, 610}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 499}";
+			sepNavWindowFrame = "{{406, 149}, {836, 667}}";
+		};
+	};
+	1D3623250D0F684500981E51 /* SphereNetAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {777, 610}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 636}";
+			sepNavWindowFrame = "{{15, 506}, {836, 667}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* SphereNet */ = {
+		activeExec = 0;
+		executables = (
+			C2FC034A0F4C667B0071FB18 /* SphereNet */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* SphereNetViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {777, 610}}";
+			sepNavSelRange = "{413, 114}";
+			sepNavVisRange = "{0, 536}";
+			sepNavWindowFrame = "{{539, 511}, {836, 667}}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* SphereNetViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {777, 1260}}";
+			sepNavSelRange = "{886, 0}";
+			sepNavVisRange = "{1287, 1367}";
+			sepNavWindowFrame = "{{1028, 511}, {836, 667}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = C2FC034A0F4C667B0071FB18 /* SphereNet */;
+		activeSDKPreference = iphonesimulator2.2.1;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* SphereNet */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* SphereNet */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = C2FC03570F4C669A0071FB18 /* Code sense */;
+		executables = (
+			C2FC034A0F4C667B0071FB18 /* SphereNet */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					301,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 258245934;
+			PBXWorkspaceStateSaveDate = 258245934;
+		};
+		perUserProjectItems = {
+			C279CE590F64853E00BF7A4C /* PBXBookmark */ = C279CE590F64853E00BF7A4C /* PBXBookmark */;
+			C279CE680F65F6FF00BF7A4C /* PBXTextBookmark */ = C279CE680F65F6FF00BF7A4C /* PBXTextBookmark */;
+			C279CE690F65F6FF00BF7A4C /* PBXTextBookmark */ = C279CE690F65F6FF00BF7A4C /* PBXTextBookmark */;
+			C279CE6C0F65F6FF00BF7A4C /* PBXTextBookmark */ = C279CE6C0F65F6FF00BF7A4C /* PBXTextBookmark */;
+		};
+		sourceControlManager = C2FC03560F4C669A0071FB18 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	C279CE590F64853E00BF7A4C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* SphereNetViewController.h */;
+	};
+	C279CE680F65F6FF00BF7A4C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SphereNetViewController.m */;
+		name = "SphereNetViewController.m: 84";
+		rLen = 0;
+		rLoc = 2225;
+		rType = 0;
+		vrLen = 1367;
+		vrLoc = 1287;
+	};
+	C279CE690F65F6FF00BF7A4C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SphereNetViewController.m */;
+		name = "SphereNetViewController.m: 39";
+		rLen = 0;
+		rLoc = 886;
+		rType = 0;
+		vrLen = 1367;
+		vrLoc = 1287;
+	};
+	C279CE6C0F65F6FF00BF7A4C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* SphereNetViewController.h */;
+		name = "SphereNetViewController.h: 20";
+		rLen = 114;
+		rLoc = 413;
+		rType = 0;
+		vrLen = 536;
+		vrLoc = 0;
+	};
+	C2B55D8A0F4C71D600919456 /* SphereNetNetworkController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {777, 610}}";
+			sepNavSelRange = "{349, 394}";
+			sepNavVisRange = "{0, 941}";
+			sepNavWindowFrame = "{{781, 130}, {836, 667}}";
+		};
+	};
+	C2B55D8B0F4C71D600919456 /* SphereNetNetworkController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {777, 2184}}";
+			sepNavSelRange = "{4435, 0}";
+			sepNavVisRange = "{3490, 1542}";
+			sepNavWindowFrame = "{{609, 511}, {836, 667}}";
+		};
+	};
+	C2FC034A0F4C667B0071FB18 /* SphereNet */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SphereNet;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	C2FC03560F4C669A0071FB18 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	C2FC03570F4C669A0071FB18 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	C2FC03680F4C67640071FB18 /* SphereNetSphere.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {777, 610}}";
+			sepNavSelRange = "{153, 340}";
+			sepNavVisRange = "{0, 493}";
+			sepNavWindowFrame = "{{389, 511}, {836, 667}}";
+		};
+	};
+	C2FC03690F4C67640071FB18 /* SphereNetSphere.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {777, 1260}}";
+			sepNavSelRange = "{1075, 727}";
+			sepNavVisRange = "{766, 1042}";
+			sepNavWindowFrame = "{{745, 219}, {836, 667}}";
+		};
+	};
+}

@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* HUD */ = {
+		activeExec = 0;
+		executables = (
+			6EA4BC690F9103830098F696 /* HUD */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* HUDViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1128, 572}}";
+			sepNavSelRange = "{209, 11}";
+			sepNavVisRange = "{0, 497}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* HUDViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1128, 1513}}";
+			sepNavSelRange = "{1758, 0}";
+			sepNavVisRange = "{1465, 583}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 6EA4BC690F9103830098F696 /* HUD */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* HUD */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* HUD */,
+		);
+		codeSenseManager = 6EA4BC730F9103A30098F696 /* Code sense */;
+		executables = (
+			6EA4BC690F9103830098F696 /* HUD */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					542,
+					586,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					938,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 269311629;
+			PBXWorkspaceStateSaveDate = 269311629;
+		};
+		perUserProjectItems = {
+			6E950D4A100D603400F93A74 /* PBXTextBookmark */ = 6E950D4A100D603400F93A74 /* PBXTextBookmark */;
+			6E950D4E100D603400F93A74 /* PBXTextBookmark */ = 6E950D4E100D603400F93A74 /* PBXTextBookmark */;
+			6E950D4F100D603400F93A74 /* PBXTextBookmark */ = 6E950D4F100D603400F93A74 /* PBXTextBookmark */;
+			6E950D50100D603400F93A74 /* PBXTextBookmark */ = 6E950D50100D603400F93A74 /* PBXTextBookmark */;
+			6E950D5D100D60B100F93A74 /* PBXTextBookmark */ = 6E950D5D100D60B100F93A74 /* PBXTextBookmark */;
+			6E950D5E100D60B100F93A74 /* PBXTextBookmark */ = 6E950D5E100D60B100F93A74 /* PBXTextBookmark */;
+			6E950D5F100D60B100F93A74 /* PBXTextBookmark */ = 6E950D5F100D60B100F93A74 /* PBXTextBookmark */;
+			6E950D60100D60B100F93A74 /* PBXTextBookmark */ = 6E950D60100D60B100F93A74 /* PBXTextBookmark */;
+			6E950D61100D60B100F93A74 /* PBXTextBookmark */ = 6E950D61100D60B100F93A74 /* PBXTextBookmark */;
+			6E950D71100D6ADD00F93A74 /* PBXTextBookmark */ = 6E950D71100D6ADD00F93A74 /* PBXTextBookmark */;
+			6E950D72100D6ADD00F93A74 /* PBXTextBookmark */ = 6E950D72100D6ADD00F93A74 /* PBXTextBookmark */;
+			6E950D76100D6B1700F93A74 /* PBXTextBookmark */ = 6E950D76100D6B1700F93A74 /* PBXTextBookmark */;
+			6E950D7A100D6B5600F93A74 /* PBXTextBookmark */ = 6E950D7A100D6B5600F93A74 /* PBXTextBookmark */;
+			6E950D97100D6EEF00F93A74 /* PBXTextBookmark */ = 6E950D97100D6EEF00F93A74 /* PBXTextBookmark */;
+			6E950D98100D6EEF00F93A74 /* PBXTextBookmark */ = 6E950D98100D6EEF00F93A74 /* PBXTextBookmark */;
+			6E950D9C100D6FD700F93A74 /* PBXTextBookmark */ = 6E950D9C100D6FD700F93A74 /* PBXTextBookmark */;
+			6E950DA1100D701800F93A74 /* PBXTextBookmark */ = 6E950DA1100D701800F93A74 /* PBXTextBookmark */;
+			6E950DA4100D7C7200F93A74 /* PBXTextBookmark */ = 6E950DA4100D7C7200F93A74 /* PBXTextBookmark */;
+			6E950DA5100D7C7200F93A74 /* PBXTextBookmark */ = 6E950DA5100D7C7200F93A74 /* PBXTextBookmark */;
+			6E950DA6100D7C7200F93A74 /* PBXTextBookmark */ = 6E950DA6100D7C7200F93A74 /* PBXTextBookmark */;
+			6E950DA7100D7C7200F93A74 /* PBXTextBookmark */ = 6E950DA7100D7C7200F93A74 /* PBXTextBookmark */;
+			6E950DA9100D7C8B00F93A74 /* PBXTextBookmark */ = 6E950DA9100D7C8B00F93A74 /* PBXTextBookmark */;
+			6EA4BC8F0F91A8300098F696 /* PBXTextBookmark */ = 6EA4BC8F0F91A8300098F696 /* PBXTextBookmark */;
+			6EB2ACBB0F9253020053F562 /* PBXBookmark */ = 6EB2ACBB0F9253020053F562 /* PBXBookmark */;
+			6EB2ACBF0F9253020053F562 /* PBXBookmark */ = 6EB2ACBF0F9253020053F562 /* PBXBookmark */;
+		};
+		sourceControlManager = 6EA4BC720F9103A30098F696 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	6E950D48100D601200F93A74 /* HUDViewController.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = HUDViewController.h;
+		path = /Users/keithapeters/Documents/iPhoneUIBook/HUD/Classes/HUDViewController.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1128, 572}}";
+			sepNavSelRange = "{133, 319}";
+			sepNavVisRange = "{0, 453}";
+		};
+	};
+	6E950D4A100D603400F93A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E950D4B100D603400F93A74 /* UIImageView.h */;
+		name = "UIImageView.h: 14";
+		rLen = 53;
+		rLoc = 202;
+		rType = 0;
+		vrLen = 1094;
+		vrLoc = 0;
+	};
+	6E950D4B100D603400F93A74 /* UIImageView.h */ = {
+		isa = PBXFileReference;
+		name = UIImageView.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIImageView.h;
+		sourceTree = "<absolute>";
+	};
+	6E950D4E100D603400F93A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* HUDViewController.m */;
+		name = "HUDViewController.m: 78";
+		rLen = 0;
+		rLoc = 333;
+		rType = 0;
+		vrLen = 775;
+		vrLoc = 129;
+	};
+	6E950D4F100D603400F93A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* HUDViewController.h */;
+		name = "HUDViewController.h: 12";
+		rLen = 0;
+		rLoc = 208;
+		rType = 0;
+		vrLen = 497;
+		vrLoc = 0;
+	};
+	6E950D50100D603400F93A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* HUDViewController.m */;
+		name = "HUDViewController.m: 78";
+		rLen = 0;
+		rLoc = 333;
+		rType = 0;
+		vrLen = 619;
+		vrLoc = 1721;
+	};
+	6E950D5D100D60B100F93A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E950D48100D601200F93A74 /* HUDViewController.h */;
+		name = "HUDViewController.h: 16";
+		rLen = 0;
+		rLoc = 304;
+		rType = 0;
+		vrLen = 497;
+		vrLoc = 0;
+	};
+	6E950D5E100D60B100F93A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* HUDViewController.m */;
+		name = "HUDViewController.m: 21";
+		rLen = 0;
+		rLoc = 266;
+		rType = 0;
+		vrLen = 826;
+		vrLoc = 132;
+	};
+	6E950D5F100D60B100F93A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E950D48100D601200F93A74 /* HUDViewController.h */;
+		name = "HUDViewController.h: 16";
+		rLen = 0;
+		rLoc = 304;
+		rType = 0;
+		vrLen = 497;
+		vrLoc = 0;
+	};
+	6E950D60100D60B100F93A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* HUDViewController.m */;
+		name = "HUDViewController.m: 21";
+		rLen = 0;
+		rLoc = 266;
+		rType = 0;
+		vrLen = 805;
+		vrLoc = 132;
+	};
+	6E950D61100D60B100F93A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E950D48100D601200F93A74 /* HUDViewController.h */;
+		name = "HUDViewController.h: 16";
+		rLen = 0;
+		rLoc = 304;
+		rType = 0;
+		vrLen = 497;
+		vrLoc = 0;
+	};
+	6E950D71100D6ADD00F93A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* HUDViewController.m */;
+		name = "HUDViewController.m: 58";
+		rLen = 0;
+		rLoc = 333;
+		rType = 0;
+		vrLen = 633;
+		vrLoc = 1026;
+	};
+	6E950D72100D6ADD00F93A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E950D48100D601200F93A74 /* HUDViewController.h */;
+		name = "HUDViewController.h: 19";
+		rLen = 0;
+		rLoc = 358;
+		rType = 0;
+		vrLen = 441;
+		vrLoc = 0;
+	};
+	6E950D76100D6B1700F93A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* HUDViewController.m */;
+		name = "HUDViewController.m: 72";
+		rLen = 0;
+		rLoc = 333;
+		rType = 0;
+		vrLen = 633;
+		vrLoc = 1026;
+	};
+	6E950D7A100D6B5600F93A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E950D48100D601200F93A74 /* HUDViewController.h */;
+		name = "HUDViewController.h: 20";
+		rLen = 0;
+		rLoc = 358;
+		rType = 0;
+		vrLen = 497;
+		vrLoc = 0;
+	};
+	6E950D97100D6EEF00F93A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* HUDViewController.m */;
+		name = "HUDViewController.m: 42";
+		rLen = 0;
+		rLoc = 333;
+		rType = 0;
+		vrLen = 841;
+		vrLoc = 288;
+	};
+	6E950D98100D6EEF00F93A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E950D48100D601200F93A74 /* HUDViewController.h */;
+		name = "HUDViewController.h: 20";
+		rLen = 0;
+		rLoc = 358;
+		rType = 0;
+		vrLen = 497;
+		vrLoc = 0;
+	};
+	6E950D9C100D6FD700F93A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* HUDViewController.m */;
+		name = "HUDViewController.m: 13";
+		rLen = 0;
+		rLoc = 215;
+		rType = 0;
+		vrLen = 721;
+		vrLoc = 0;
+	};
+	6E950DA1100D701800F93A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E950D48100D601200F93A74 /* HUDViewController.h */;
+		name = "HUDViewController.h: 19";
+		rLen = 0;
+		rLoc = 358;
+		rType = 0;
+		vrLen = 441;
+		vrLoc = 0;
+	};
+	6E950DA4100D7C7200F93A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E950D48100D601200F93A74 /* HUDViewController.h */;
+		name = "HUDViewController.h: 9";
+		rLen = 319;
+		rLoc = 133;
+		rType = 0;
+		vrLen = 453;
+		vrLoc = 0;
+	};
+	6E950DA5100D7C7200F93A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* HUDViewController.m */;
+		name = "HUDViewController.m: 45";
+		rLen = 0;
+		rLoc = 333;
+		rType = 0;
+		vrLen = 550;
+		vrLoc = 1303;
+	};
+	6E950DA6100D7C7200F93A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* HUDViewController.m */;
+		name = "HUDViewController.m: 45";
+		rLen = 0;
+		rLoc = 333;
+		rType = 0;
+		vrLen = 550;
+		vrLoc = 1303;
+	};
+	6E950DA7100D7C7200F93A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E950D48100D601200F93A74 /* HUDViewController.h */;
+		name = "HUDViewController.h: 9";
+		rLen = 319;
+		rLoc = 133;
+		rType = 0;
+		vrLen = 453;
+		vrLoc = 0;
+	};
+	6E950DA9100D7C8B00F93A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* HUDViewController.m */;
+		name = "HUDViewController.m: 70";
+		rLen = 0;
+		rLoc = 1758;
+		rType = 0;
+		vrLen = 583;
+		vrLoc = 1465;
+	};
+	6EA4BC690F9103830098F696 /* HUD */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = HUD;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+	};
+	6EA4BC720F9103A30098F696 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	6EA4BC730F9103A30098F696 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	6EA4BC8F0F91A8300098F696 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* HUDViewController.m */;
+		name = "HUDViewController.m: 46";
+		rLen = 0;
+		rLoc = 333;
+		rType = 0;
+		vrLen = 761;
+		vrLoc = 0;
+	};
+	6EB2ACBB0F9253020053F562 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 6EA4BC750F9104C10098F696 /* pod.png */;
+	};
+	6EB2ACBF0F9253020053F562 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 6EA4BC750F9104C10098F696 /* pod.png */;
+	};
+}

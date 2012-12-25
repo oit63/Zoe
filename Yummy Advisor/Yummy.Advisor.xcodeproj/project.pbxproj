@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E209DB531511A84B00C1CAE6 /* YummyGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = E209DB501511A84B00C1CAE6 /* YummyGroup.m */; };
+		E209DB541511A84B00C1CAE6 /* YummyItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E209DB521511A84B00C1CAE6 /* YummyItem.m */; };
+		E20C460A150EB8C700CF19E4 /* AdvisorRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20C4602150EB8C700CF19E4 /* AdvisorRootViewController.m */; };
+		E20F33C1153C04E20022FEC7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20F33C0153C04E20022FEC7 /* CFNetwork.framework */; };
+		E20F33C3153C04F40022FEC7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20F33C2153C04F40022FEC7 /* SystemConfiguration.framework */; };
+		E20F33C6153C052F0022FEC7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20F33C5153C052F0022FEC7 /* MobileCoreServices.framework */; };
+		E20F33C8153C05590022FEC7 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E20F33C7153C05590022FEC7 /* libz.dylib */; };
+		E21A3AE2151185AB00F96579 /* YummyGroupImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = E21A3AE1151185AB00F96579 /* YummyGroupImporter.m */; };
+		E22E4638150B123F00CEEE04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E22E4637150B123F00CEEE04 /* UIKit.framework */; };
+		E22E463A150B123F00CEEE04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E22E4639150B123F00CEEE04 /* Foundation.framework */; };
+		E22E463C150B123F00CEEE04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E22E463B150B123F00CEEE04 /* CoreGraphics.framework */; };
+		E22E463E150B123F00CEEE04 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E22E463D150B123F00CEEE04 /* CoreData.framework */; };
+		E22E4644150B123F00CEEE04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E22E4642150B123F00CEEE04 /* InfoPlist.strings */; };
+		E22E4646150B123F00CEEE04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E22E4645150B123F00CEEE04 /* main.m */; };
+		E22E464A150B123F00CEEE04 /* AdvisorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E22E4649150B123F00CEEE04 /* AdvisorAppDelegate.m */; };
+		E230B3B7150DC2E500942E63 /* Icon72.png in Resources */ = {isa = PBXBuildFile; fileRef = E230B3B6150DC2E500942E63 /* Icon72.png */; };
+		E262B3D2150DCB9B0061882C /* Icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = E262B3CF150DCB9B0061882C /* Icon57.png */; };
+		E262B3D3150DCB9B0061882C /* Icon57x2.png in Resources */ = {isa = PBXBuildFile; fileRef = E262B3D0150DCB9B0061882C /* Icon57x2.png */; };
+		E262B3D4150DCB9B0061882C /* Icon72x2.png in Resources */ = {isa = PBXBuildFile; fileRef = E262B3D1150DCB9B0061882C /* Icon72x2.png */; };
+		E287B4D2150B20BA00B51605 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E287B4D1150B20BA00B51605 /* MainWindow.xib */; };
+		E2884E98153A5CF500D6DA80 /* YummyTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2884E97153A5CF500D6DA80 /* YummyTableView.xib */; };
+		E2884E9A153A629C00D6DA80 /* YummyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E25B766215397D3300DFF671 /* YummyTableViewController.m */; };
+		E292DDD815100BE3004AF032 /* Yummy_JustOn_Me.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E292DDD615100BE3004AF032 /* Yummy_JustOn_Me.xcdatamodeld */; };
+		E292E17B151010C6004AF032 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E292E17A151010C6004AF032 /* libxml2.dylib */; };
+		E297B7B3153B0A4F00B7AC2D /* YummyTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E297B7B2153B0A4E00B7AC2D /* YummyTableCell.m */; };
+		E2A99D131511E43E006DB677 /* YummySecondLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A99D121511E43E006DB677 /* YummySecondLevelViewController.m */; };
+		E2BB4009150C561B007C6EB5 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2BB4008150C561B007C6EB5 /* MainWindow-iPad.xib */; };
+		E2BB400D150C5D0E007C6EB5 /* AdvisorAppDelegatePad.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BB400C150C5D0E007C6EB5 /* AdvisorAppDelegatePad.m */; };
+		E2BD6B0A150F4430003B682F /* YummyRepo.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BD6B09150F4430003B682F /* YummyRepo.m */; };
+		E2C16BE0151157EE00F5FCC5 /* BlankView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2C16BDF151157EE00F5FCC5 /* BlankView.xib */; };
+		E2C16BE41511585500F5FCC5 /* BlankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C16BE31511585500F5FCC5 /* BlankViewController.m */; };
+		E2DB7044153BED310017BAEC /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB702E153BED310017BAEC /* ASIAuthenticationDialog.m */; };
+		E2DB7045153BED310017BAEC /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB7031153BED310017BAEC /* ASIDataCompressor.m */; };
+		E2DB7046153BED310017BAEC /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB7033153BED310017BAEC /* ASIDataDecompressor.m */; };
+		E2DB7047153BED310017BAEC /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB7035153BED310017BAEC /* ASIDownloadCache.m */; };
+		E2DB7048153BED310017BAEC /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB7037153BED310017BAEC /* ASIFormDataRequest.m */; };
+		E2DB7049153BED310017BAEC /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB7039153BED310017BAEC /* ASIHTTPRequest.m */; };
+		E2DB704A153BED310017BAEC /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB703D153BED310017BAEC /* ASIInputStream.m */; };
+		E2DB704B153BED310017BAEC /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB703F153BED310017BAEC /* ASINetworkQueue.m */; };
+		E2DB704C153BED310017BAEC /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB7043153BED310017BAEC /* Reachability.m */; };
+		E2FD9870153988F3004070A4 /* splash_1024x768.png in Resources */ = {isa = PBXBuildFile; fileRef = E2FD986F153988F3004070A4 /* splash_1024x768.png */; };
+		E2FE7BF1153C61E200DFE4BF /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E2FD987215398A10004070A4 /* Default-Portrait~ipad.png */; };
+		E2FE7BF3153C61FF00DFE4BF /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E2FD987415398A2B004070A4 /* Default-Landscape~ipad.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E209DB4F1511A84B00C1CAE6 /* YummyGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YummyGroup.h; path = "../../../Yummy Common/Classes/YummyGroup.h"; sourceTree = "<group>"; };
+		E209DB501511A84B00C1CAE6 /* YummyGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YummyGroup.m; path = "../../../Yummy Common/Classes/YummyGroup.m"; sourceTree = "<group>"; };
+		E209DB511511A84B00C1CAE6 /* YummyItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YummyItem.h; path = "../../../Yummy Common/Classes/YummyItem.h"; sourceTree = "<group>"; };
+		E209DB521511A84B00C1CAE6 /* YummyItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YummyItem.m; path = "../../../Yummy Common/Classes/YummyItem.m"; sourceTree = "<group>"; };
+		E20C4601150EB8C700CF19E4 /* AdvisorRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvisorRootViewController.h; sourceTree = "<group>"; };
+		E20C4602150EB8C700CF19E4 /* AdvisorRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvisorRootViewController.m; sourceTree = "<group>"; };
+		E20F33C0153C04E20022FEC7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E20F33C2153C04F40022FEC7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E20F33C5153C052F0022FEC7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		E20F33C7153C05590022FEC7 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		E21A3AE0151185AB00F96579 /* YummyGroupImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YummyGroupImporter.h; sourceTree = "<group>"; };
+		E21A3AE1151185AB00F96579 /* YummyGroupImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YummyGroupImporter.m; sourceTree = "<group>"; };
+		E22E4633150B123F00CEEE04 /* Yummy.Advisor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yummy.Advisor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E22E4637150B123F00CEEE04 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E22E4639150B123F00CEEE04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E22E463B150B123F00CEEE04 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E22E463D150B123F00CEEE04 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E22E4641150B123F00CEEE04 /* Yummy.Advisor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Yummy.Advisor-Info.plist"; sourceTree = "<group>"; };
+		E22E4643150B123F00CEEE04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E22E4645150B123F00CEEE04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E22E4647150B123F00CEEE04 /* Yummy.Advisor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yummy.Advisor-Prefix.pch"; sourceTree = "<group>"; };
+		E22E4648150B123F00CEEE04 /* AdvisorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdvisorAppDelegate.h; sourceTree = "<group>"; };
+		E22E4649150B123F00CEEE04 /* AdvisorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdvisorAppDelegate.m; sourceTree = "<group>"; };
+		E230B3B6150DC2E500942E63 /* Icon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon72.png; sourceTree = "<group>"; };
+		E25B766115397D3300DFF671 /* YummyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YummyTableViewController.h; sourceTree = "<group>"; };
+		E25B766215397D3300DFF671 /* YummyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YummyTableViewController.m; sourceTree = "<group>"; };
+		E262B3CF150DCB9B0061882C /* Icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon57.png; sourceTree = "<group>"; };
+		E262B3D0150DCB9B0061882C /* Icon57x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon57x2.png; sourceTree = "<group>"; };
+		E262B3D1150DCB9B0061882C /* Icon72x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon72x2.png; sourceTree = "<group>"; };
+		E287B4D1150B20BA00B51605 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		E2884E97153A5CF500D6DA80 /* YummyTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YummyTableView.xib; sourceTree = "<group>"; };
+		E292DDD715100BE3004AF032 /* Yummy_JustOn_Me.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Yummy_JustOn_Me.xcdatamodel; sourceTree = "<group>"; };
+		E292E17A151010C6004AF032 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		E297B7B1153B0A4D00B7AC2D /* YummyTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YummyTableCell.h; sourceTree = "<group>"; };
+		E297B7B2153B0A4E00B7AC2D /* YummyTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YummyTableCell.m; sourceTree = "<group>"; };
+		E2A99D111511E43E006DB677 /* YummySecondLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YummySecondLevelViewController.h; sourceTree = "<group>"; };
+		E2A99D121511E43E006DB677 /* YummySecondLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YummySecondLevelViewController.m; sourceTree = "<group>"; };
+		E2BB4008150C561B007C6EB5 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		E2BB400B150C5CE6007C6EB5 /* AdvisorAppDelegatePad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvisorAppDelegatePad.h; sourceTree = "<group>"; };
+		E2BB400C150C5D0E007C6EB5 /* AdvisorAppDelegatePad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvisorAppDelegatePad.m; sourceTree = "<group>"; };
+		E2BD6B08150F4430003B682F /* YummyRepo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YummyRepo.h; path = "../../../Yummy Common/Classes/YummyRepo.h"; sourceTree = "<group>"; };
+		E2BD6B09150F4430003B682F /* YummyRepo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YummyRepo.m; path = "../../../Yummy Common/Classes/YummyRepo.m"; sourceTree = "<group>"; };
+		E2C16BDF151157EE00F5FCC5 /* BlankView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BlankView.xib; path = ../BlankView.xib; sourceTree = "<group>"; };
+		E2C16BE21511583C00F5FCC5 /* BlankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlankViewController.h; sourceTree = "<group>"; };
+		E2C16BE31511585500F5FCC5 /* BlankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlankViewController.m; sourceTree = "<group>"; };
+		E2DB702D153BED310017BAEC /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		E2DB702E153BED310017BAEC /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		E2DB702F153BED310017BAEC /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		E2DB7030153BED310017BAEC /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		E2DB7031153BED310017BAEC /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		E2DB7032153BED310017BAEC /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		E2DB7033153BED310017BAEC /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		E2DB7034153BED310017BAEC /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		E2DB7035153BED310017BAEC /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		E2DB7036153BED310017BAEC /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		E2DB7037153BED310017BAEC /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		E2DB7038153BED310017BAEC /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		E2DB7039153BED310017BAEC /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		E2DB703A153BED310017BAEC /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		E2DB703B153BED310017BAEC /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		E2DB703C153BED310017BAEC /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		E2DB703D153BED310017BAEC /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		E2DB703E153BED310017BAEC /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		E2DB703F153BED310017BAEC /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		E2DB7040153BED310017BAEC /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		E2DB7042153BED310017BAEC /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		E2DB7043153BED310017BAEC /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		E2FD986F153988F3004070A4 /* splash_1024x768.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_1024x768.png; sourceTree = "<group>"; };
+		E2FD987215398A10004070A4 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait~ipad.png"; path = "../Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		E2FD987415398A2B004070A4 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad.png"; path = "../Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E22E4630150B123F00CEEE04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20F33C8153C05590022FEC7 /* libz.dylib in Frameworks */,
+				E20F33C6153C052F0022FEC7 /* MobileCoreServices.framework in Frameworks */,
+				E20F33C3153C04F40022FEC7 /* SystemConfiguration.framework in Frameworks */,
+				E20F33C1153C04E20022FEC7 /* CFNetwork.framework in Frameworks */,
+				E292E17B151010C6004AF032 /* libxml2.dylib in Frameworks */,
+				E22E4638150B123F00CEEE04 /* UIKit.framework in Frameworks */,
+				E22E463A150B123F00CEEE04 /* Foundation.framework in Frameworks */,
+				E22E463C150B123F00CEEE04 /* CoreGraphics.framework in Frameworks */,
+				E22E463E150B123F00CEEE04 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E209DB4E1511A81D00C1CAE6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E209DB4F1511A84B00C1CAE6 /* YummyGroup.h */,
+				E209DB501511A84B00C1CAE6 /* YummyGroup.m */,
+				E209DB511511A84B00C1CAE6 /* YummyItem.h */,
+				E209DB521511A84B00C1CAE6 /* YummyItem.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E20C45FE150EB8C700CF19E4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E2DB702C153BED310017BAEC /* ASI-Http */,
+				E20C4601150EB8C700CF19E4 /* AdvisorRootViewController.h */,
+				E20C4602150EB8C700CF19E4 /* AdvisorRootViewController.m */,
+				E209DB4E1511A81D00C1CAE6 /* Model */,
+				E2BD6B07150F4419003B682F /* Persistence */,
+				E292E17615100FB6004AF032 /* RestFul */,
+				E2A99D0F1511E23B006DB677 /* Right */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E22E4628150B123F00CEEE04 = {
+			isa = PBXGroup;
+			children = (
+				E22E463F150B123F00CEEE04 /* Yummy Advisor */,
+				E22E4636150B123F00CEEE04 /* Frameworks */,
+				E22E4634150B123F00CEEE04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E22E4634150B123F00CEEE04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E22E4633150B123F00CEEE04 /* Yummy.Advisor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E22E4636150B123F00CEEE04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E20F33C7153C05590022FEC7 /* libz.dylib */,
+				E20F33C5153C052F0022FEC7 /* MobileCoreServices.framework */,
+				E20F33C2153C04F40022FEC7 /* SystemConfiguration.framework */,
+				E20F33C0153C04E20022FEC7 /* CFNetwork.framework */,
+				E292E17A151010C6004AF032 /* libxml2.dylib */,
+				E22E4637150B123F00CEEE04 /* UIKit.framework */,
+				E22E4639150B123F00CEEE04 /* Foundation.framework */,
+				E22E463B150B123F00CEEE04 /* CoreGraphics.framework */,
+				E22E463D150B123F00CEEE04 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E22E463F150B123F00CEEE04 /* Yummy Advisor */ = {
+			isa = PBXGroup;
+			children = (
+				E20C45FE150EB8C700CF19E4 /* Classes */,
+				E27E5130150D9F8D00A9C051 /* Images */,
+				E22E4640150B123F00CEEE04 /* Supporting Files */,
+			);
+			path = "Yummy Advisor";
+			sourceTree = "<group>";
+		};
+		E22E4640150B123F00CEEE04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2FD987415398A2B004070A4 /* Default-Landscape~ipad.png */,
+				E2FD987215398A10004070A4 /* Default-Portrait~ipad.png */,
+				E292DDD615100BE3004AF032 /* Yummy_JustOn_Me.xcdatamodeld */,
+				E22E4648150B123F00CEEE04 /* AdvisorAppDelegate.h */,
+				E22E4649150B123F00CEEE04 /* AdvisorAppDelegate.m */,
+				E2BB400B150C5CE6007C6EB5 /* AdvisorAppDelegatePad.h */,
+				E2BB400C150C5D0E007C6EB5 /* AdvisorAppDelegatePad.m */,
+				E22E4641150B123F00CEEE04 /* Yummy.Advisor-Info.plist */,
+				E22E4642150B123F00CEEE04 /* InfoPlist.strings */,
+				E22E4645150B123F00CEEE04 /* main.m */,
+				E22E4647150B123F00CEEE04 /* Yummy.Advisor-Prefix.pch */,
+				E287B4D1150B20BA00B51605 /* MainWindow.xib */,
+				E2BB4008150C561B007C6EB5 /* MainWindow-iPad.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E27E5130150D9F8D00A9C051 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E2FD986F153988F3004070A4 /* splash_1024x768.png */,
+				E262B3CF150DCB9B0061882C /* Icon57.png */,
+				E262B3D0150DCB9B0061882C /* Icon57x2.png */,
+				E262B3D1150DCB9B0061882C /* Icon72x2.png */,
+				E230B3B6150DC2E500942E63 /* Icon72.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		E292E17615100FB6004AF032 /* RestFul */ = {
+			isa = PBXGroup;
+			children = (
+				E21A3AE0151185AB00F96579 /* YummyGroupImporter.h */,
+				E21A3AE1151185AB00F96579 /* YummyGroupImporter.m */,
+				E2A99D111511E43E006DB677 /* YummySecondLevelViewController.h */,
+				E2A99D121511E43E006DB677 /* YummySecondLevelViewController.m */,
+			);
+			name = RestFul;
+			sourceTree = "<group>";
+		};
+		E2A99D0F1511E23B006DB677 /* Right */ = {
+			isa = PBXGroup;
+			children = (
+				E297B7B1153B0A4D00B7AC2D /* YummyTableCell.h */,
+				E297B7B2153B0A4E00B7AC2D /* YummyTableCell.m */,
+				E2C16BDF151157EE00F5FCC5 /* BlankView.xib */,
+				E2C16BE21511583C00F5FCC5 /* BlankViewController.h */,
+				E2C16BE31511585500F5FCC5 /* BlankViewController.m */,
+				E2884E97153A5CF500D6DA80 /* YummyTableView.xib */,
+				E25B766115397D3300DFF671 /* YummyTableViewController.h */,
+				E25B766215397D3300DFF671 /* YummyTableViewController.m */,
+			);
+			name = Right;
+			sourceTree = "<group>";
+		};
+		E2BD6B07150F4419003B682F /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				E2BD6B08150F4430003B682F /* YummyRepo.h */,
+				E2BD6B09150F4430003B682F /* YummyRepo.m */,
+			);
+			name = Persistence;
+			sourceTree = "<group>";
+		};
+		E2DB702C153BED310017BAEC /* ASI-Http */ = {
+			isa = PBXGroup;
+			children = (
+				E2DB702D153BED310017BAEC /* ASIAuthenticationDialog.h */,
+				E2DB702E153BED310017BAEC /* ASIAuthenticationDialog.m */,
+				E2DB702F153BED310017BAEC /* ASICacheDelegate.h */,
+				E2DB7030153BED310017BAEC /* ASIDataCompressor.h */,
+				E2DB7031153BED310017BAEC /* ASIDataCompressor.m */,
+				E2DB7032153BED310017BAEC /* ASIDataDecompressor.h */,
+				E2DB7033153BED310017BAEC /* ASIDataDecompressor.m */,
+				E2DB7034153BED310017BAEC /* ASIDownloadCache.h */,
+				E2DB7035153BED310017BAEC /* ASIDownloadCache.m */,
+				E2DB7036153BED310017BAEC /* ASIFormDataRequest.h */,
+				E2DB7037153BED310017BAEC /* ASIFormDataRequest.m */,
+				E2DB7038153BED310017BAEC /* ASIHTTPRequest.h */,
+				E2DB7039153BED310017BAEC /* ASIHTTPRequest.m */,
+				E2DB703A153BED310017BAEC /* ASIHTTPRequestConfig.h */,
+				E2DB703B153BED310017BAEC /* ASIHTTPRequestDelegate.h */,
+				E2DB703C153BED310017BAEC /* ASIInputStream.h */,
+				E2DB703D153BED310017BAEC /* ASIInputStream.m */,
+				E2DB703E153BED310017BAEC /* ASINetworkQueue.h */,
+				E2DB703F153BED310017BAEC /* ASINetworkQueue.m */,
+				E2DB7040153BED310017BAEC /* ASIProgressDelegate.h */,
+				E2DB7041153BED310017BAEC /* Reachability */,
+			);
+			name = "ASI-Http";
+			path = "../../../Yummy Common/ASI-Http";
+			sourceTree = "<group>";
+		};
+		E2DB7041153BED310017BAEC /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				E2DB7042153BED310017BAEC /* Reachability.h */,
+				E2DB7043153BED310017BAEC /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E22E4632150B123F00CEEE04 /* Yummy.Advisor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E22E4650150B123F00CEEE04 /* Build configuration list for PBXNativeTarget "Yummy.Advisor" */;
+			buildPhases = (
+				E22E462F150B123F00CEEE04 /* Sources */,
+				E22E4630150B123F00CEEE04 /* Frameworks */,
+				E22E4631150B123F00CEEE04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yummy.Advisor;
+			productName = "Yummy Advisor";
+			productReference = E22E4633150B123F00CEEE04 /* Yummy.Advisor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E22E462A150B123F00CEEE04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Tsst Corp.";
+			};
+			buildConfigurationList = E22E462D150B123F00CEEE04 /* Build configuration list for PBXProject "Yummy.Advisor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E22E4628150B123F00CEEE04;
+			productRefGroup = E22E4634150B123F00CEEE04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E22E4632150B123F00CEEE04 /* Yummy.Advisor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E22E4631150B123F00CEEE04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22E4644150B123F00CEEE04 /* InfoPlist.strings in Resources */,
+				E287B4D2150B20BA00B51605 /* MainWindow.xib in Resources */,
+				E2BB4009150C561B007C6EB5 /* MainWindow-iPad.xib in Resources */,
+				E230B3B7150DC2E500942E63 /* Icon72.png in Resources */,
+				E262B3D2150DCB9B0061882C /* Icon57.png in Resources */,
+				E262B3D3150DCB9B0061882C /* Icon57x2.png in Resources */,
+				E262B3D4150DCB9B0061882C /* Icon72x2.png in Resources */,
+				E2C16BE0151157EE00F5FCC5 /* BlankView.xib in Resources */,
+				E2FD9870153988F3004070A4 /* splash_1024x768.png in Resources */,
+				E2884E98153A5CF500D6DA80 /* YummyTableView.xib in Resources */,
+				E2FE7BF1153C61E200DFE4BF /* Default-Portrait~ipad.png in Resources */,
+				E2FE7BF3153C61FF00DFE4BF /* Default-Landscape~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E22E462F150B123F00CEEE04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22E4646150B123F00CEEE04 /* main.m in Sources */,
+				E22E464A150B123F00CEEE04 /* AdvisorAppDelegate.m in Sources */,
+				E2BB400D150C5D0E007C6EB5 /* AdvisorAppDelegatePad.m in Sources */,
+				E20C460A150EB8C700CF19E4 /* AdvisorRootViewController.m in Sources */,
+				E2BD6B0A150F4430003B682F /* YummyRepo.m in Sources */,
+				E292DDD815100BE3004AF032 /* Yummy_JustOn_Me.xcdatamodeld in Sources */,
+				E2C16BE41511585500F5FCC5 /* BlankViewController.m in Sources */,
+				E21A3AE2151185AB00F96579 /* YummyGroupImporter.m in Sources */,
+				E209DB531511A84B00C1CAE6 /* YummyGroup.m in Sources */,
+				E209DB541511A84B00C1CAE6 /* YummyItem.m in Sources */,
+				E2A99D131511E43E006DB677 /* YummySecondLevelViewController.m in Sources */,
+				E2884E9A153A629C00D6DA80 /* YummyTableViewController.m in Sources */,
+				E297B7B3153B0A4F00B7AC2D /* YummyTableCell.m in Sources */,
+				E2DB7044153BED310017BAEC /* ASIAuthenticationDialog.m in Sources */,
+				E2DB7045153BED310017BAEC /* ASIDataCompressor.m in Sources */,
+				E2DB7046153BED310017BAEC /* ASIDataDecompressor.m in Sources */,
+				E2DB7047153BED310017BAEC /* ASIDownloadCache.m in Sources */,
+				E2DB7048153BED310017BAEC /* ASIFormDataRequest.m in Sources */,
+				E2DB7049153BED310017BAEC /* ASIHTTPRequest.m in Sources */,
+				E2DB704A153BED310017BAEC /* ASIInputStream.m in Sources */,
+				E2DB704B153BED310017BAEC /* ASINetworkQueue.m in Sources */,
+				E2DB704C153BED310017BAEC /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E22E4642150B123F00CEEE04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E22E4643150B123F00CEEE04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E22E464E150B123F00CEEE04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: ttron some (4MNSYLT4LX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "9AC3295C-52B5-409D-901B-A619E0ECD665";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E22E464F150B123F00CEEE04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: ttron some (4MNSYLT4LX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "9AC3295C-52B5-409D-901B-A619E0ECD665";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E22E4651150B123F00CEEE04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_OBJCPP_ARC_ABI = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yummy Advisor/Yummy.Advisor-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "Yummy Advisor/Yummy.Advisor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = Yummy.Advisor;
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E22E4652150B123F00CEEE04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_OBJCPP_ARC_ABI = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yummy Advisor/Yummy.Advisor-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "Yummy Advisor/Yummy.Advisor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = Yummy.Advisor;
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E22E462D150B123F00CEEE04 /* Build configuration list for PBXProject "Yummy.Advisor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E22E464E150B123F00CEEE04 /* Debug */,
+				E22E464F150B123F00CEEE04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E22E4650150B123F00CEEE04 /* Build configuration list for PBXNativeTarget "Yummy.Advisor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E22E4651150B123F00CEEE04 /* Debug */,
+				E22E4652150B123F00CEEE04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E292DDD615100BE3004AF032 /* Yummy_JustOn_Me.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E292DDD715100BE3004AF032 /* Yummy_JustOn_Me.xcdatamodel */,
+			);
+			currentVersion = E292DDD715100BE3004AF032 /* Yummy_JustOn_Me.xcdatamodel */;
+			name = Yummy_JustOn_Me.xcdatamodeld;
+			path = "../../Yummy OnMe/Yummy OnMe/Yummy_JustOn_Me.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E22E462A150B123F00CEEE04 /* Project object */;
+}

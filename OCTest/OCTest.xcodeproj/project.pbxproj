@@ -1,0 +1,240 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2F3EF5E14E36826008BA619 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F3EF5D14E36825008BA619 /* Foundation.framework */; };
+		E2F3EF6114E36826008BA619 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F3EF6014E36826008BA619 /* main.m */; };
+		E2F3EF6514E36826008BA619 /* OCTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E2F3EF6414E36826008BA619 /* OCTest.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E2F3EF5714E36825008BA619 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				E2F3EF6514E36826008BA619 /* OCTest.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E2F3EF5914E36825008BA619 /* OCTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OCTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F3EF5D14E36825008BA619 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E2F3EF6014E36826008BA619 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2F3EF6314E36826008BA619 /* OCTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCTest-Prefix.pch"; sourceTree = "<group>"; };
+		E2F3EF6414E36826008BA619 /* OCTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = OCTest.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2F3EF5614E36825008BA619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F3EF5E14E36826008BA619 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2F3EF4E14E36825008BA619 = {
+			isa = PBXGroup;
+			children = (
+				E2F3EF5F14E36826008BA619 /* OCTest */,
+				E2F3EF5C14E36825008BA619 /* Frameworks */,
+				E2F3EF5A14E36825008BA619 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2F3EF5A14E36825008BA619 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2F3EF5914E36825008BA619 /* OCTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2F3EF5C14E36825008BA619 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2F3EF5D14E36825008BA619 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2F3EF5F14E36826008BA619 /* OCTest */ = {
+			isa = PBXGroup;
+			children = (
+				E2F3EF6014E36826008BA619 /* main.m */,
+				E2F3EF6414E36826008BA619 /* OCTest.1 */,
+				E2F3EF6214E36826008BA619 /* Supporting Files */,
+			);
+			path = OCTest;
+			sourceTree = "<group>";
+		};
+		E2F3EF6214E36826008BA619 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2F3EF6314E36826008BA619 /* OCTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2F3EF5814E36825008BA619 /* OCTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2F3EF6814E36826008BA619 /* Build configuration list for PBXNativeTarget "OCTest" */;
+			buildPhases = (
+				E2F3EF5514E36825008BA619 /* Sources */,
+				E2F3EF5614E36825008BA619 /* Frameworks */,
+				E2F3EF5714E36825008BA619 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCTest;
+			productName = OCTest;
+			productReference = E2F3EF5914E36825008BA619 /* OCTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2F3EF5014E36825008BA619 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Tsst Corp.";
+			};
+			buildConfigurationList = E2F3EF5314E36825008BA619 /* Build configuration list for PBXProject "OCTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E2F3EF4E14E36825008BA619;
+			productRefGroup = E2F3EF5A14E36825008BA619 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2F3EF5814E36825008BA619 /* OCTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2F3EF5514E36825008BA619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F3EF6114E36826008BA619 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E2F3EF6614E36826008BA619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E2F3EF6714E36826008BA619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E2F3EF6914E36826008BA619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCTest/OCTest-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E2F3EF6A14E36826008BA619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCTest/OCTest-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2F3EF5314E36825008BA619 /* Build configuration list for PBXProject "OCTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F3EF6614E36826008BA619 /* Debug */,
+				E2F3EF6714E36826008BA619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2F3EF6814E36826008BA619 /* Build configuration list for PBXNativeTarget "OCTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F3EF6914E36826008BA619 /* Debug */,
+				E2F3EF6A14E36826008BA619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2F3EF5014E36825008BA619 /* Project object */;
+}

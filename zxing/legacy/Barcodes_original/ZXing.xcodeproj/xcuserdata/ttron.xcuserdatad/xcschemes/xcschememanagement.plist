@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Barcodes.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>99</integer>
+		</dict>
+		<key>Build All.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>101</integer>
+		</dict>
+		<key>CppUnit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>103</integer>
+		</dict>
+		<key>Test All.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>102</integer>
+		</dict>
+		<key>zxingcore-tests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>104</integer>
+		</dict>
+		<key>zxingcore.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>100</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1D6058900D05DD3D006BFB54</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8514EAE70DF88E5200EE78D3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>856C25780E1BC767006ABF00</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>856C257D0E1BC779006ABF00</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>856EAB140E1CE6E000B2E1C7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>856EAB7A0E1CE8AA00B2E1C7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

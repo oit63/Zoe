@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* RoutesyBARTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* RoutesyBARTAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* RootViewController.xib */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		B02005890F47B63E00EA3E90 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02005880F47B63E00EA3E90 /* SystemConfiguration.framework */; };
+		B020058B0F47B63E00EA3E90 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B020058A0F47B63E00EA3E90 /* libsqlite3.dylib */; };
+		B020058D0F47B63E00EA3E90 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B020058C0F47B63E00EA3E90 /* libxml2.dylib */; };
+		B02005C80F47B6F700EA3E90 /* BARTPredictionLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B02005C70F47B6F700EA3E90 /* BARTPredictionLoader.m */; };
+		B02005E90F47E08F00EA3E90 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = B02005E80F47E08F00EA3E90 /* XPathQuery.m */; };
+		B02006A40F47FC7A00EA3E90 /* PredictionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B02006A30F47FC7A00EA3E90 /* PredictionCell.xib */; };
+		B02006A80F47FC9100EA3E90 /* StationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B02006A70F47FC9100EA3E90 /* StationCell.xib */; };
+		B02006AF0F47FEAC00EA3E90 /* PredictionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B02006AE0F47FEAC00EA3E90 /* PredictionCell.m */; };
+		B02006B20F47FEBD00EA3E90 /* StationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B02006B10F47FEBD00EA3E90 /* StationCell.m */; };
+		B09B647E0F49402E000EFD3D /* routesy.db in Resources */ = {isa = PBXBuildFile; fileRef = B09B647D0F49402E000EFD3D /* routesy.db */; };
+		B09B651A0F4A7650000EFD3D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B09B65190F4A7650000EFD3D /* CoreLocation.framework */; };
+		B0B2A62C0F47AF7800794E3F /* PredictionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B2A62B0F47AF7800794E3F /* PredictionTableViewController.m */; };
+		B0B2AA050F47B53700794E3F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B2AA040F47B53700794E3F /* UIKit.framework */; };
+		B0B2AA0A0F47B54F00794E3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B2AA090F47B54F00794E3F /* Foundation.framework */; };
+		B0B2AA100F47B55F00794E3F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B2AA0F0F47B55F00794E3F /* CoreGraphics.framework */; };
+		B0B2AA210F47B5AD00794E3F /* Prediction.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B2A6020F47A99B00794E3F /* Prediction.m */; };
+		B0B2AA220F47B5B000794E3F /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B2A5FF0F47A98F00794E3F /* Station.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D3623240D0F684500981E51 /* RoutesyBARTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoutesyBARTAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* RoutesyBARTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoutesyBARTAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* RoutesyBART.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoutesyBART.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2899E55F0DE3E45000AC0155 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		28A0AAE50D9B0CCF005BE974 /* RoutesyBART_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoutesyBART_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B02005880F47B63E00EA3E90 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B020058A0F47B63E00EA3E90 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		B020058C0F47B63E00EA3E90 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		B02005C60F47B6F700EA3E90 /* BARTPredictionLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BARTPredictionLoader.h; sourceTree = "<group>"; };
+		B02005C70F47B6F700EA3E90 /* BARTPredictionLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BARTPredictionLoader.m; sourceTree = "<group>"; };
+		B02005E70F47E08F00EA3E90 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		B02005E80F47E08F00EA3E90 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		B02006A30F47FC7A00EA3E90 /* PredictionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PredictionCell.xib; sourceTree = "<group>"; };
+		B02006A70F47FC9100EA3E90 /* StationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StationCell.xib; sourceTree = "<group>"; };
+		B02006AD0F47FEAC00EA3E90 /* PredictionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PredictionCell.h; sourceTree = "<group>"; };
+		B02006AE0F47FEAC00EA3E90 /* PredictionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PredictionCell.m; sourceTree = "<group>"; };
+		B02006B00F47FEBD00EA3E90 /* StationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationCell.h; sourceTree = "<group>"; };
+		B02006B10F47FEBD00EA3E90 /* StationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationCell.m; sourceTree = "<group>"; };
+		B09B647D0F49402E000EFD3D /* routesy.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = routesy.db; path = ../RoutesyBARTDB/build/Debug/routesy.db; sourceTree = SOURCE_ROOT; };
+		B09B65190F4A7650000EFD3D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B0B2A5FE0F47A98F00794E3F /* Station.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Station.h; sourceTree = "<group>"; };
+		B0B2A5FF0F47A98F00794E3F /* Station.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Station.m; sourceTree = "<group>"; };
+		B0B2A6010F47A99B00794E3F /* Prediction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prediction.h; sourceTree = "<group>"; };
+		B0B2A6020F47A99B00794E3F /* Prediction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Prediction.m; sourceTree = "<group>"; };
+		B0B2A62A0F47AF7800794E3F /* PredictionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PredictionTableViewController.h; sourceTree = "<group>"; };
+		B0B2A62B0F47AF7800794E3F /* PredictionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PredictionTableViewController.m; sourceTree = "<group>"; };
+		B0B2AA040F47B53700794E3F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B0B2AA090F47B54F00794E3F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B0B2AA0F0F47B55F00794E3F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0B2AA050F47B53700794E3F /* UIKit.framework in Frameworks */,
+				B0B2AA0A0F47B54F00794E3F /* Foundation.framework in Frameworks */,
+				B0B2AA100F47B55F00794E3F /* CoreGraphics.framework in Frameworks */,
+				B02005890F47B63E00EA3E90 /* SystemConfiguration.framework in Frameworks */,
+				B020058B0F47B63E00EA3E90 /* libsqlite3.dylib in Frameworks */,
+				B020058D0F47B63E00EA3E90 /* libxml2.dylib in Frameworks */,
+				B09B651A0F4A7650000EFD3D /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B02005E70F47E08F00EA3E90 /* XPathQuery.h */,
+				B02005E80F47E08F00EA3E90 /* XPathQuery.m */,
+				B02006AC0F47FDBB00EA3E90 /* view */,
+				B0B2A6050F47AF2100794E3F /* controller */,
+				B0B2A5FD0F47A8CA00794E3F /* model */,
+				1D3623240D0F684500981E51 /* RoutesyBARTAppDelegate.h */,
+				1D3623250D0F684500981E51 /* RoutesyBARTAppDelegate.m */,
+				B02005C60F47B6F700EA3E90 /* BARTPredictionLoader.h */,
+				B02005C70F47B6F700EA3E90 /* BARTPredictionLoader.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* RoutesyBART.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				B02005880F47B63E00EA3E90 /* SystemConfiguration.framework */,
+				B020058A0F47B63E00EA3E90 /* libsqlite3.dylib */,
+				B020058C0F47B63E00EA3E90 /* libxml2.dylib */,
+				B09B65190F4A7650000EFD3D /* CoreLocation.framework */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* RoutesyBART_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B09B647D0F49402E000EFD3D /* routesy.db */,
+				2899E55F0DE3E45000AC0155 /* RootViewController.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				B02006A30F47FC7A00EA3E90 /* PredictionCell.xib */,
+				B02006A70F47FC9100EA3E90 /* StationCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0B2AA040F47B53700794E3F /* UIKit.framework */,
+				B0B2AA090F47B54F00794E3F /* Foundation.framework */,
+				B0B2AA0F0F47B55F00794E3F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B02006AC0F47FDBB00EA3E90 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B02006B00F47FEBD00EA3E90 /* StationCell.h */,
+				B02006B10F47FEBD00EA3E90 /* StationCell.m */,
+				B02006AD0F47FEAC00EA3E90 /* PredictionCell.h */,
+				B02006AE0F47FEAC00EA3E90 /* PredictionCell.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		B0B2A5FD0F47A8CA00794E3F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				B0B2A5FE0F47A98F00794E3F /* Station.h */,
+				B0B2A5FF0F47A98F00794E3F /* Station.m */,
+				B0B2A6010F47A99B00794E3F /* Prediction.h */,
+				B0B2A6020F47A99B00794E3F /* Prediction.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		B0B2A6050F47AF2100794E3F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				B0B2A62A0F47AF7800794E3F /* PredictionTableViewController.h */,
+				B0B2A62B0F47AF7800794E3F /* PredictionTableViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* RoutesyBART */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "RoutesyBART" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoutesyBART;
+			productName = RoutesyBART;
+			productReference = 1D6058910D05DD3D006BFB54 /* RoutesyBART.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "RoutesyBART" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* RoutesyBART */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */,
+				B02006A40F47FC7A00EA3E90 /* PredictionCell.xib in Resources */,
+				B02006A80F47FC9100EA3E90 /* StationCell.xib in Resources */,
+				B09B647E0F49402E000EFD3D /* routesy.db in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* RoutesyBARTAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				B0B2A62C0F47AF7800794E3F /* PredictionTableViewController.m in Sources */,
+				B0B2AA210F47B5AD00794E3F /* Prediction.m in Sources */,
+				B0B2AA220F47B5B000794E3F /* Station.m in Sources */,
+				B02005C80F47B6F700EA3E90 /* BARTPredictionLoader.m in Sources */,
+				B02005E90F47E08F00EA3E90 /* XPathQuery.m in Sources */,
+				B02006AF0F47FEAC00EA3E90 /* PredictionCell.m in Sources */,
+				B02006B20F47FEBD00EA3E90 /* StationCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RoutesyBART_Prefix.pch;
+				HEADER_SEARCH_PATHS = "/usr/include/libxml2/**";
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = RoutesyBART;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RoutesyBART_Prefix.pch;
+				HEADER_SEARCH_PATHS = "/usr/include/libxml2/**";
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = RoutesyBART;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator2.2.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator2.2.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "RoutesyBART" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "RoutesyBART" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

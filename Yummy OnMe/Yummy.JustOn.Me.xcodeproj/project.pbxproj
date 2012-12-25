@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E20C45FA150EB65E00CF19E4 /* Yummy_JustOn_Me.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E20C45F8150EB65E00CF19E4 /* Yummy_JustOn_Me.xcdatamodeld */; };
+		E20C4628150EB94500CF19E4 /* NSIndexSet+IndexesOutsideSet.m in Sources */ = {isa = PBXBuildFile; fileRef = E20C4611150EB94500CF19E4 /* NSIndexSet+IndexesOutsideSet.m */; };
+		E20C4629150EB94500CF19E4 /* ParseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E20C4613150EB94500CF19E4 /* ParseOperation.m */; };
+		E20C462A150EB94500CF19E4 /* UIImageExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = E20C4615150EB94500CF19E4 /* UIImageExtras.m */; };
+		E20C462B150EB94500CF19E4 /* YummyCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E20C4617150EB94500CF19E4 /* YummyCategoryCell.m */; };
+		E20C462C150EB94500CF19E4 /* YummyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E20C4619150EB94500CF19E4 /* YummyCell.m */; };
+		E20C462D150EB94500CF19E4 /* YummyCellFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E20C461B150EB94500CF19E4 /* YummyCellFactory.m */; };
+		E20C462E150EB94500CF19E4 /* YummyMetroView.m in Sources */ = {isa = PBXBuildFile; fileRef = E20C461D150EB94500CF19E4 /* YummyMetroView.m */; };
+		E20C462F150EB94500CF19E4 /* YummyMetroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20C461F150EB94500CF19E4 /* YummyMetroViewController.m */; };
+		E20C4631150EB94500CF19E4 /* YummyMetroViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = E20C4623150EB94500CF19E4 /* YummyMetroViewData.m */; };
+		E20C4632150EB94500CF19E4 /* YummyMetroViewXMLDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E20C4625150EB94500CF19E4 /* YummyMetroViewXMLDataSource.m */; };
+		E20C463B150EB98200CF19E4 /* YummyStubItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E20C4636150EB98200CF19E4 /* YummyStubItem.m */; };
+		E20C463C150EB98200CF19E4 /* YummyGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = E20C4638150EB98200CF19E4 /* YummyGroup.m */; };
+		E20C463D150EB98200CF19E4 /* YummyItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E20C463A150EB98200CF19E4 /* YummyItem.m */; };
+		E20C4656150EB99D00CF19E4 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = E20C4640150EB99D00CF19E4 /* ASIAuthenticationDialog.m */; };
+		E20C4657150EB99D00CF19E4 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = E20C4643150EB99D00CF19E4 /* ASIDataCompressor.m */; };
+		E20C4658150EB99D00CF19E4 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = E20C4645150EB99D00CF19E4 /* ASIDataDecompressor.m */; };
+		E20C4659150EB99D00CF19E4 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E20C4647150EB99D00CF19E4 /* ASIDownloadCache.m */; };
+		E20C465A150EB99D00CF19E4 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E20C4649150EB99D00CF19E4 /* ASIFormDataRequest.m */; };
+		E20C465B150EB99D00CF19E4 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E20C464B150EB99D00CF19E4 /* ASIHTTPRequest.m */; };
+		E20C465C150EB99D00CF19E4 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = E20C464F150EB99D00CF19E4 /* ASIInputStream.m */; };
+		E20C465D150EB99D00CF19E4 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E20C4651150EB99D00CF19E4 /* ASINetworkQueue.m */; };
+		E20C465E150EB99D00CF19E4 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E20C4655150EB99D00CF19E4 /* Reachability.m */; };
+		E241CF8E150EBD1B0093AB41 /* Logit.m in Sources */ = {isa = PBXBuildFile; fileRef = E241CF8B150EBD1B0093AB41 /* Logit.m */; };
+		E241CF8F150EBD1B0093AB41 /* YummyMetroViewDataSourceStatic.m in Sources */ = {isa = PBXBuildFile; fileRef = E241CF8D150EBD1B0093AB41 /* YummyMetroViewDataSourceStatic.m */; };
+		E267372314F0A99D00045D8E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E267372214F0A99D00045D8E /* CFNetwork.framework */; };
+		E267372514F0A9B500045D8E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E267372414F0A9B400045D8E /* MobileCoreServices.framework */; };
+		E267372714F0A9DE00045D8E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E267372614F0A9DE00045D8E /* SystemConfiguration.framework */; };
+		E267372914F0AA1300045D8E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E267372814F0AA1300045D8E /* libz.dylib */; };
+		E267372B14F0AA2400045D8E /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E267372A14F0AA2400045D8E /* libxml2.dylib */; };
+		E2C14877150E34C6004CEDDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C1486F150E34C6004CEDDD /* main.m */; };
+		E2C14878150E34C6004CEDDD /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2C14870150E34C6004CEDDD /* MainWindow.xib */; };
+		E2C1487B150E34C6004CEDDD /* YummyOnMeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C14876150E34C6004CEDDD /* YummyOnMeAppDelegate.m */; };
+		E2C148A7150E35F6004CEDDD /* alien.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C1488F150E35F6004CEDDD /* alien.png */; };
+		E2C148A9150E35F6004CEDDD /* chef57.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C14890150E35F6004CEDDD /* chef57.png */; };
+		E2C148AB150E35F6004CEDDD /* chef57x2.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C14891150E35F6004CEDDD /* chef57x2.png */; };
+		E2C148AD150E35F6004CEDDD /* chef72.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C14892150E35F6004CEDDD /* chef72.png */; };
+		E2C148AF150E35F6004CEDDD /* chef72x2.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C14893150E35F6004CEDDD /* chef72x2.png */; };
+		E2C148B5150E35F6004CEDDD /* icon_back.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C14897150E35F6004CEDDD /* icon_back.png */; };
+		E2C148B7150E35F6004CEDDD /* icon_cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C14898150E35F6004CEDDD /* icon_cancel.png */; };
+		E2C148B9150E35F6004CEDDD /* icon_cart.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C14899150E35F6004CEDDD /* icon_cart.png */; };
+		E2C148BB150E35F6004CEDDD /* icon_cash.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C1489A150E35F6004CEDDD /* icon_cash.png */; };
+		E2C148BD150E35F6004CEDDD /* icon_castle.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C1489B150E35F6004CEDDD /* icon_castle.png */; };
+		E2C148BF150E35F6004CEDDD /* icon_check.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C1489C150E35F6004CEDDD /* icon_check.png */; };
+		E2C148C1150E35F6004CEDDD /* icon_cocktail.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C1489D150E35F6004CEDDD /* icon_cocktail.png */; };
+		E2C148C3150E35F6004CEDDD /* icon_coffee.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C1489E150E35F6004CEDDD /* icon_coffee.png */; };
+		E2C148C5150E35F6004CEDDD /* icon_fork.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C1489F150E35F6004CEDDD /* icon_fork.png */; };
+		E2C148C7150E35F6004CEDDD /* icon_heart.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C148A0150E35F6004CEDDD /* icon_heart.png */; };
+		E2C148C9150E35F6004CEDDD /* icon_huoguo.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C148A1150E35F6004CEDDD /* icon_huoguo.png */; };
+		E2C148CB150E35F6004CEDDD /* icon_percent.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C148A2150E35F6004CEDDD /* icon_percent.png */; };
+		E2C148CD150E35F6004CEDDD /* icon_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C148A3150E35F6004CEDDD /* icon_pin.png */; };
+		E2C148CF150E35F6004CEDDD /* icon_star.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C148A4150E35F6004CEDDD /* icon_star.png */; };
+		E2C148D1150E35F6004CEDDD /* Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C148A5150E35F6004CEDDD /* Placeholder.png */; };
+		E2C2EAD814CF03C0005F259C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C2EAD714CF03C0005F259C /* UIKit.framework */; };
+		E2C2EADA14CF03C0005F259C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C2EAD914CF03C0005F259C /* Foundation.framework */; };
+		E2C2EADC14CF03C0005F259C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C2EADB14CF03C0005F259C /* CoreGraphics.framework */; };
+		E2FA435715041F260037D59E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2FA435615041F260037D59E /* CoreData.framework */; };
+		E2FD987715398AEE004070A4 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E2FD987615398AEE004070A4 /* Default-Portrait~ipad.png */; };
+		E2FD987A15398B00004070A4 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E2FD987915398B00004070A4 /* Default-Landscape~ipad.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E20C45F9150EB65E00CF19E4 /* Yummy_JustOn_Me.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Yummy_JustOn_Me.xcdatamodel; sourceTree = "<group>"; };
+		E20C4610150EB94500CF19E4 /* NSIndexSet+IndexesOutsideSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSIndexSet+IndexesOutsideSet.h"; path = "Classes/NSIndexSet+IndexesOutsideSet.h"; sourceTree = "<group>"; };
+		E20C4611150EB94500CF19E4 /* NSIndexSet+IndexesOutsideSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSIndexSet+IndexesOutsideSet.m"; path = "Classes/NSIndexSet+IndexesOutsideSet.m"; sourceTree = "<group>"; };
+		E20C4612150EB94500CF19E4 /* ParseOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParseOperation.h; path = Classes/ParseOperation.h; sourceTree = "<group>"; };
+		E20C4613150EB94500CF19E4 /* ParseOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ParseOperation.m; path = Classes/ParseOperation.m; sourceTree = "<group>"; };
+		E20C4614150EB94500CF19E4 /* UIImageExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIImageExtras.h; path = Classes/UIImageExtras.h; sourceTree = "<group>"; };
+		E20C4615150EB94500CF19E4 /* UIImageExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIImageExtras.m; path = Classes/UIImageExtras.m; sourceTree = "<group>"; };
+		E20C4616150EB94500CF19E4 /* YummyCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YummyCategoryCell.h; path = Classes/YummyCategoryCell.h; sourceTree = "<group>"; };
+		E20C4617150EB94500CF19E4 /* YummyCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YummyCategoryCell.m; path = Classes/YummyCategoryCell.m; sourceTree = "<group>"; };
+		E20C4618150EB94500CF19E4 /* YummyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YummyCell.h; path = Classes/YummyCell.h; sourceTree = "<group>"; };
+		E20C4619150EB94500CF19E4 /* YummyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YummyCell.m; path = Classes/YummyCell.m; sourceTree = "<group>"; };
+		E20C461A150EB94500CF19E4 /* YummyCellFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YummyCellFactory.h; path = Classes/YummyCellFactory.h; sourceTree = "<group>"; };
+		E20C461B150EB94500CF19E4 /* YummyCellFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YummyCellFactory.m; path = Classes/YummyCellFactory.m; sourceTree = "<group>"; };
+		E20C461C150EB94500CF19E4 /* YummyMetroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YummyMetroView.h; path = Classes/YummyMetroView.h; sourceTree = "<group>"; };
+		E20C461D150EB94500CF19E4 /* YummyMetroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YummyMetroView.m; path = Classes/YummyMetroView.m; sourceTree = "<group>"; };
+		E20C461E150EB94500CF19E4 /* YummyMetroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YummyMetroViewController.h; path = Classes/YummyMetroViewController.h; sourceTree = "<group>"; };
+		E20C461F150EB94500CF19E4 /* YummyMetroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YummyMetroViewController.m; path = Classes/YummyMetroViewController.m; sourceTree = "<group>"; };
+		E20C4622150EB94500CF19E4 /* YummyMetroViewData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YummyMetroViewData.h; path = Classes/YummyMetroViewData.h; sourceTree = "<group>"; };
+		E20C4623150EB94500CF19E4 /* YummyMetroViewData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YummyMetroViewData.m; path = Classes/YummyMetroViewData.m; sourceTree = "<group>"; };
+		E20C4624150EB94500CF19E4 /* YummyMetroViewXMLDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YummyMetroViewXMLDataSource.h; path = Classes/YummyMetroViewXMLDataSource.h; sourceTree = "<group>"; };
+		E20C4625150EB94500CF19E4 /* YummyMetroViewXMLDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YummyMetroViewXMLDataSource.m; path = Classes/YummyMetroViewXMLDataSource.m; sourceTree = "<group>"; };
+		E20C4635150EB98200CF19E4 /* YummyStubItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YummyStubItem.h; path = "../../Yummy Common/Classes/YummyStubItem.h"; sourceTree = "<group>"; };
+		E20C4636150EB98200CF19E4 /* YummyStubItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YummyStubItem.m; path = "../../Yummy Common/Classes/YummyStubItem.m"; sourceTree = "<group>"; };
+		E20C4637150EB98200CF19E4 /* YummyGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YummyGroup.h; path = "../../Yummy Common/Classes/YummyGroup.h"; sourceTree = "<group>"; };
+		E20C4638150EB98200CF19E4 /* YummyGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YummyGroup.m; path = "../../Yummy Common/Classes/YummyGroup.m"; sourceTree = "<group>"; };
+		E20C4639150EB98200CF19E4 /* YummyItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YummyItem.h; path = "../../Yummy Common/Classes/YummyItem.h"; sourceTree = "<group>"; };
+		E20C463A150EB98200CF19E4 /* YummyItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YummyItem.m; path = "../../Yummy Common/Classes/YummyItem.m"; sourceTree = "<group>"; };
+		E20C463F150EB99D00CF19E4 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		E20C4640150EB99D00CF19E4 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		E20C4641150EB99D00CF19E4 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		E20C4642150EB99D00CF19E4 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		E20C4643150EB99D00CF19E4 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		E20C4644150EB99D00CF19E4 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		E20C4645150EB99D00CF19E4 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		E20C4646150EB99D00CF19E4 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		E20C4647150EB99D00CF19E4 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		E20C4648150EB99D00CF19E4 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		E20C4649150EB99D00CF19E4 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		E20C464A150EB99D00CF19E4 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		E20C464B150EB99D00CF19E4 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		E20C464C150EB99D00CF19E4 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		E20C464D150EB99D00CF19E4 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		E20C464E150EB99D00CF19E4 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		E20C464F150EB99D00CF19E4 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		E20C4650150EB99D00CF19E4 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		E20C4651150EB99D00CF19E4 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		E20C4652150EB99D00CF19E4 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		E20C4654150EB99D00CF19E4 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		E20C4655150EB99D00CF19E4 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		E241CF8A150EBD1B0093AB41 /* Logit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logit.h; sourceTree = "<group>"; };
+		E241CF8B150EBD1B0093AB41 /* Logit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Logit.m; sourceTree = "<group>"; };
+		E241CF8C150EBD1B0093AB41 /* YummyMetroViewDataSourceStatic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YummyMetroViewDataSourceStatic.h; sourceTree = "<group>"; };
+		E241CF8D150EBD1B0093AB41 /* YummyMetroViewDataSourceStatic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YummyMetroViewDataSourceStatic.m; sourceTree = "<group>"; };
+		E267372214F0A99D00045D8E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E267372414F0A9B400045D8E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		E267372614F0A9DE00045D8E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E267372814F0AA1300045D8E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		E267372A14F0AA2400045D8E /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		E2C1486F150E34C6004CEDDD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Yummy OnMe/main.m"; sourceTree = SOURCE_ROOT; };
+		E2C14870150E34C6004CEDDD /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow.xib; path = "Yummy OnMe/MainWindow.xib"; sourceTree = SOURCE_ROOT; };
+		E2C14872150E34C6004CEDDD /* Yummy.OnMe-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Yummy.OnMe-Prefix.pch"; path = "Yummy OnMe/Yummy.OnMe-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		E2C14875150E34C6004CEDDD /* YummyOnMeAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YummyOnMeAppDelegate.h; path = "Yummy OnMe/YummyOnMeAppDelegate.h"; sourceTree = SOURCE_ROOT; };
+		E2C14876150E34C6004CEDDD /* YummyOnMeAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YummyOnMeAppDelegate.m; path = "Yummy OnMe/YummyOnMeAppDelegate.m"; sourceTree = SOURCE_ROOT; };
+		E2C1488F150E35F6004CEDDD /* alien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alien.png; path = "Yummy OnMe/Images/alien.png"; sourceTree = SOURCE_ROOT; };
+		E2C14890150E35F6004CEDDD /* chef57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chef57.png; path = "Yummy OnMe/Images/chef57.png"; sourceTree = SOURCE_ROOT; };
+		E2C14891150E35F6004CEDDD /* chef57x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chef57x2.png; path = "Yummy OnMe/Images/chef57x2.png"; sourceTree = SOURCE_ROOT; };
+		E2C14892150E35F6004CEDDD /* chef72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chef72.png; path = "Yummy OnMe/Images/chef72.png"; sourceTree = SOURCE_ROOT; };
+		E2C14893150E35F6004CEDDD /* chef72x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chef72x2.png; path = "Yummy OnMe/Images/chef72x2.png"; sourceTree = SOURCE_ROOT; };
+		E2C14897150E35F6004CEDDD /* icon_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_back.png; sourceTree = "<group>"; };
+		E2C14898150E35F6004CEDDD /* icon_cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_cancel.png; sourceTree = "<group>"; };
+		E2C14899150E35F6004CEDDD /* icon_cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_cart.png; sourceTree = "<group>"; };
+		E2C1489A150E35F6004CEDDD /* icon_cash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_cash.png; sourceTree = "<group>"; };
+		E2C1489B150E35F6004CEDDD /* icon_castle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_castle.png; sourceTree = "<group>"; };
+		E2C1489C150E35F6004CEDDD /* icon_check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_check.png; sourceTree = "<group>"; };
+		E2C1489D150E35F6004CEDDD /* icon_cocktail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_cocktail.png; sourceTree = "<group>"; };
+		E2C1489E150E35F6004CEDDD /* icon_coffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_coffee.png; sourceTree = "<group>"; };
+		E2C1489F150E35F6004CEDDD /* icon_fork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_fork.png; sourceTree = "<group>"; };
+		E2C148A0150E35F6004CEDDD /* icon_heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_heart.png; sourceTree = "<group>"; };
+		E2C148A1150E35F6004CEDDD /* icon_huoguo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_huoguo.png; sourceTree = "<group>"; };
+		E2C148A2150E35F6004CEDDD /* icon_percent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_percent.png; sourceTree = "<group>"; };
+		E2C148A3150E35F6004CEDDD /* icon_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_pin.png; sourceTree = "<group>"; };
+		E2C148A4150E35F6004CEDDD /* icon_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_star.png; sourceTree = "<group>"; };
+		E2C148A5150E35F6004CEDDD /* Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Placeholder.png; sourceTree = "<group>"; };
+		E2C148D3150E3778004CEDDD /* Yummy.JustOn.Me-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Yummy.JustOn.Me-Info.plist"; path = "Yummy OnMe/Yummy.JustOn.Me-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E2C2EAD314CF03C0005F259C /* Yummy.JustOn.Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yummy.JustOn.Me.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C2EAD714CF03C0005F259C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E2C2EAD914CF03C0005F259C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E2C2EADB14CF03C0005F259C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E2FA435615041F260037D59E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E2FD987615398AEE004070A4 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait~ipad.png"; path = "../../Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		E2FD987915398B00004070A4 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad.png"; path = "../../Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2C2EAD014CF03C0005F259C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E267372514F0A9B500045D8E /* MobileCoreServices.framework in Frameworks */,
+				E2FA435715041F260037D59E /* CoreData.framework in Frameworks */,
+				E267372B14F0AA2400045D8E /* libxml2.dylib in Frameworks */,
+				E267372914F0AA1300045D8E /* libz.dylib in Frameworks */,
+				E267372714F0A9DE00045D8E /* SystemConfiguration.framework in Frameworks */,
+				E267372314F0A99D00045D8E /* CFNetwork.framework in Frameworks */,
+				E2C2EAD814CF03C0005F259C /* UIKit.framework in Frameworks */,
+				E2C2EADA14CF03C0005F259C /* Foundation.framework in Frameworks */,
+				E2C2EADC14CF03C0005F259C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E20C460E150EB91800CF19E4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E241CF89150EBD1B0093AB41 /* Debug */,
+				E20C463E150EB99D00CF19E4 /* ASI-Http */,
+				E20C4634150EB96400CF19E4 /* Model */,
+				E20C460F150EB92500CF19E4 /* View */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		E20C460F150EB92500CF19E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E20C4610150EB94500CF19E4 /* NSIndexSet+IndexesOutsideSet.h */,
+				E20C4611150EB94500CF19E4 /* NSIndexSet+IndexesOutsideSet.m */,
+				E20C4612150EB94500CF19E4 /* ParseOperation.h */,
+				E20C4613150EB94500CF19E4 /* ParseOperation.m */,
+				E20C4614150EB94500CF19E4 /* UIImageExtras.h */,
+				E20C4615150EB94500CF19E4 /* UIImageExtras.m */,
+				E20C4616150EB94500CF19E4 /* YummyCategoryCell.h */,
+				E20C4617150EB94500CF19E4 /* YummyCategoryCell.m */,
+				E20C4618150EB94500CF19E4 /* YummyCell.h */,
+				E20C4619150EB94500CF19E4 /* YummyCell.m */,
+				E20C461A150EB94500CF19E4 /* YummyCellFactory.h */,
+				E20C461B150EB94500CF19E4 /* YummyCellFactory.m */,
+				E20C461C150EB94500CF19E4 /* YummyMetroView.h */,
+				E20C461D150EB94500CF19E4 /* YummyMetroView.m */,
+				E20C461E150EB94500CF19E4 /* YummyMetroViewController.h */,
+				E20C461F150EB94500CF19E4 /* YummyMetroViewController.m */,
+				E20C4622150EB94500CF19E4 /* YummyMetroViewData.h */,
+				E20C4623150EB94500CF19E4 /* YummyMetroViewData.m */,
+				E20C4624150EB94500CF19E4 /* YummyMetroViewXMLDataSource.h */,
+				E20C4625150EB94500CF19E4 /* YummyMetroViewXMLDataSource.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E20C4634150EB96400CF19E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E20C4635150EB98200CF19E4 /* YummyStubItem.h */,
+				E20C4636150EB98200CF19E4 /* YummyStubItem.m */,
+				E20C4637150EB98200CF19E4 /* YummyGroup.h */,
+				E20C4638150EB98200CF19E4 /* YummyGroup.m */,
+				E20C4639150EB98200CF19E4 /* YummyItem.h */,
+				E20C463A150EB98200CF19E4 /* YummyItem.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E20C463E150EB99D00CF19E4 /* ASI-Http */ = {
+			isa = PBXGroup;
+			children = (
+				E20C463F150EB99D00CF19E4 /* ASIAuthenticationDialog.h */,
+				E20C4640150EB99D00CF19E4 /* ASIAuthenticationDialog.m */,
+				E20C4641150EB99D00CF19E4 /* ASICacheDelegate.h */,
+				E20C4642150EB99D00CF19E4 /* ASIDataCompressor.h */,
+				E20C4643150EB99D00CF19E4 /* ASIDataCompressor.m */,
+				E20C4644150EB99D00CF19E4 /* ASIDataDecompressor.h */,
+				E20C4645150EB99D00CF19E4 /* ASIDataDecompressor.m */,
+				E20C4646150EB99D00CF19E4 /* ASIDownloadCache.h */,
+				E20C4647150EB99D00CF19E4 /* ASIDownloadCache.m */,
+				E20C4648150EB99D00CF19E4 /* ASIFormDataRequest.h */,
+				E20C4649150EB99D00CF19E4 /* ASIFormDataRequest.m */,
+				E20C464A150EB99D00CF19E4 /* ASIHTTPRequest.h */,
+				E20C464B150EB99D00CF19E4 /* ASIHTTPRequest.m */,
+				E20C464C150EB99D00CF19E4 /* ASIHTTPRequestConfig.h */,
+				E20C464D150EB99D00CF19E4 /* ASIHTTPRequestDelegate.h */,
+				E20C464E150EB99D00CF19E4 /* ASIInputStream.h */,
+				E20C464F150EB99D00CF19E4 /* ASIInputStream.m */,
+				E20C4650150EB99D00CF19E4 /* ASINetworkQueue.h */,
+				E20C4651150EB99D00CF19E4 /* ASINetworkQueue.m */,
+				E20C4652150EB99D00CF19E4 /* ASIProgressDelegate.h */,
+				E20C4653150EB99D00CF19E4 /* Reachability */,
+			);
+			name = "ASI-Http";
+			path = "../../Yummy Common/ASI-Http";
+			sourceTree = "<group>";
+		};
+		E20C4653150EB99D00CF19E4 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				E20C4654150EB99D00CF19E4 /* Reachability.h */,
+				E20C4655150EB99D00CF19E4 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		E241CF89150EBD1B0093AB41 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				E241CF8A150EBD1B0093AB41 /* Logit.h */,
+				E241CF8B150EBD1B0093AB41 /* Logit.m */,
+				E241CF8C150EBD1B0093AB41 /* YummyMetroViewDataSourceStatic.h */,
+				E241CF8D150EBD1B0093AB41 /* YummyMetroViewDataSourceStatic.m */,
+			);
+			name = Debug;
+			path = "../../Yummy Common/Classes/Debug";
+			sourceTree = "<group>";
+		};
+		E2635B6214F8E35A008CDBD4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E2FD987615398AEE004070A4 /* Default-Portrait~ipad.png */,
+				E2FD987915398B00004070A4 /* Default-Landscape~ipad.png */,
+				E2C1488F150E35F6004CEDDD /* alien.png */,
+				E2C14890150E35F6004CEDDD /* chef57.png */,
+				E2C14891150E35F6004CEDDD /* chef57x2.png */,
+				E2C14892150E35F6004CEDDD /* chef72.png */,
+				E2C14893150E35F6004CEDDD /* chef72x2.png */,
+				E2C14896150E35F6004CEDDD /* icons */,
+				E2C148A6150E35F6004CEDDD /* items */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		E2C14896150E35F6004CEDDD /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				E2C14897150E35F6004CEDDD /* icon_back.png */,
+				E2C14898150E35F6004CEDDD /* icon_cancel.png */,
+				E2C14899150E35F6004CEDDD /* icon_cart.png */,
+				E2C1489A150E35F6004CEDDD /* icon_cash.png */,
+				E2C1489B150E35F6004CEDDD /* icon_castle.png */,
+				E2C1489C150E35F6004CEDDD /* icon_check.png */,
+				E2C1489D150E35F6004CEDDD /* icon_cocktail.png */,
+				E2C1489E150E35F6004CEDDD /* icon_coffee.png */,
+				E2C1489F150E35F6004CEDDD /* icon_fork.png */,
+				E2C148A0150E35F6004CEDDD /* icon_heart.png */,
+				E2C148A1150E35F6004CEDDD /* icon_huoguo.png */,
+				E2C148A2150E35F6004CEDDD /* icon_percent.png */,
+				E2C148A3150E35F6004CEDDD /* icon_pin.png */,
+				E2C148A4150E35F6004CEDDD /* icon_star.png */,
+				E2C148A5150E35F6004CEDDD /* Placeholder.png */,
+			);
+			name = icons;
+			path = "Yummy OnMe/Images/icons";
+			sourceTree = SOURCE_ROOT;
+		};
+		E2C148A6150E35F6004CEDDD /* items */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = items;
+			path = "Yummy OnMe/Images/items";
+			sourceTree = SOURCE_ROOT;
+		};
+		E2C2EAC814CF03BF005F259C = {
+			isa = PBXGroup;
+			children = (
+				E2C2EADD14CF03C0005F259C /* Yummy OnMe */,
+				E2C2EAD614CF03C0005F259C /* Frameworks */,
+				E2C2EAD414CF03C0005F259C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2C2EAD414CF03C0005F259C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2C2EAD314CF03C0005F259C /* Yummy.JustOn.Me.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2C2EAD614CF03C0005F259C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E267372814F0AA1300045D8E /* libz.dylib */,
+				E267372A14F0AA2400045D8E /* libxml2.dylib */,
+				E2FA435615041F260037D59E /* CoreData.framework */,
+				E267372614F0A9DE00045D8E /* SystemConfiguration.framework */,
+				E267372414F0A9B400045D8E /* MobileCoreServices.framework */,
+				E267372214F0A99D00045D8E /* CFNetwork.framework */,
+				E2C2EAD714CF03C0005F259C /* UIKit.framework */,
+				E2C2EAD914CF03C0005F259C /* Foundation.framework */,
+				E2C2EADB14CF03C0005F259C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2C2EADD14CF03C0005F259C /* Yummy OnMe */ = {
+			isa = PBXGroup;
+			children = (
+				E20C460E150EB91800CF19E4 /* Classes */,
+				E2635B6214F8E35A008CDBD4 /* Images */,
+				E2C2EADE14CF03C0005F259C /* Supporting Files */,
+			);
+			path = "Yummy OnMe";
+			sourceTree = "<group>";
+		};
+		E2C2EADE14CF03C0005F259C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E20C45F8150EB65E00CF19E4 /* Yummy_JustOn_Me.xcdatamodeld */,
+				E2C148D3150E3778004CEDDD /* Yummy.JustOn.Me-Info.plist */,
+				E2C1486F150E34C6004CEDDD /* main.m */,
+				E2C14870150E34C6004CEDDD /* MainWindow.xib */,
+				E2C14872150E34C6004CEDDD /* Yummy.OnMe-Prefix.pch */,
+				E2C14875150E34C6004CEDDD /* YummyOnMeAppDelegate.h */,
+				E2C14876150E34C6004CEDDD /* YummyOnMeAppDelegate.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2C2EAD214CF03C0005F259C /* Yummy.JustOn.Me */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2C2EAEB14CF03C0005F259C /* Build configuration list for PBXNativeTarget "Yummy.JustOn.Me" */;
+			buildPhases = (
+				E2C2EAD114CF03C0005F259C /* Resources */,
+				E2C2EACF14CF03C0005F259C /* Sources */,
+				E2C2EAD014CF03C0005F259C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yummy.JustOn.Me;
+			productName = Yummy;
+			productReference = E2C2EAD314CF03C0005F259C /* Yummy.JustOn.Me.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2C2EACA14CF03BF005F259C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Tsst Corp.";
+			};
+			buildConfigurationList = E2C2EACD14CF03BF005F259C /* Build configuration list for PBXProject "Yummy.JustOn.Me" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				English,
+			);
+			mainGroup = E2C2EAC814CF03BF005F259C;
+			productRefGroup = E2C2EAD414CF03C0005F259C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2C2EAD214CF03C0005F259C /* Yummy.JustOn.Me */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2C2EAD114CF03C0005F259C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C14878150E34C6004CEDDD /* MainWindow.xib in Resources */,
+				E2C148A7150E35F6004CEDDD /* alien.png in Resources */,
+				E2C148A9150E35F6004CEDDD /* chef57.png in Resources */,
+				E2C148AB150E35F6004CEDDD /* chef57x2.png in Resources */,
+				E2C148AD150E35F6004CEDDD /* chef72.png in Resources */,
+				E2C148AF150E35F6004CEDDD /* chef72x2.png in Resources */,
+				E2C148B5150E35F6004CEDDD /* icon_back.png in Resources */,
+				E2C148B7150E35F6004CEDDD /* icon_cancel.png in Resources */,
+				E2C148B9150E35F6004CEDDD /* icon_cart.png in Resources */,
+				E2C148BB150E35F6004CEDDD /* icon_cash.png in Resources */,
+				E2C148BD150E35F6004CEDDD /* icon_castle.png in Resources */,
+				E2C148BF150E35F6004CEDDD /* icon_check.png in Resources */,
+				E2C148C1150E35F6004CEDDD /* icon_cocktail.png in Resources */,
+				E2C148C3150E35F6004CEDDD /* icon_coffee.png in Resources */,
+				E2C148C5150E35F6004CEDDD /* icon_fork.png in Resources */,
+				E2C148C7150E35F6004CEDDD /* icon_heart.png in Resources */,
+				E2C148C9150E35F6004CEDDD /* icon_huoguo.png in Resources */,
+				E2C148CB150E35F6004CEDDD /* icon_percent.png in Resources */,
+				E2C148CD150E35F6004CEDDD /* icon_pin.png in Resources */,
+				E2C148CF150E35F6004CEDDD /* icon_star.png in Resources */,
+				E2C148D1150E35F6004CEDDD /* Placeholder.png in Resources */,
+				E2FD987715398AEE004070A4 /* Default-Portrait~ipad.png in Resources */,
+				E2FD987A15398B00004070A4 /* Default-Landscape~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2C2EACF14CF03C0005F259C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C14877150E34C6004CEDDD /* main.m in Sources */,
+				E2C1487B150E34C6004CEDDD /* YummyOnMeAppDelegate.m in Sources */,
+				E20C45FA150EB65E00CF19E4 /* Yummy_JustOn_Me.xcdatamodeld in Sources */,
+				E20C4628150EB94500CF19E4 /* NSIndexSet+IndexesOutsideSet.m in Sources */,
+				E20C4629150EB94500CF19E4 /* ParseOperation.m in Sources */,
+				E20C462A150EB94500CF19E4 /* UIImageExtras.m in Sources */,
+				E20C462B150EB94500CF19E4 /* YummyCategoryCell.m in Sources */,
+				E20C462C150EB94500CF19E4 /* YummyCell.m in Sources */,
+				E20C462D150EB94500CF19E4 /* YummyCellFactory.m in Sources */,
+				E20C462E150EB94500CF19E4 /* YummyMetroView.m in Sources */,
+				E20C462F150EB94500CF19E4 /* YummyMetroViewController.m in Sources */,
+				E20C4631150EB94500CF19E4 /* YummyMetroViewData.m in Sources */,
+				E20C4632150EB94500CF19E4 /* YummyMetroViewXMLDataSource.m in Sources */,
+				E20C463B150EB98200CF19E4 /* YummyStubItem.m in Sources */,
+				E20C463C150EB98200CF19E4 /* YummyGroup.m in Sources */,
+				E20C463D150EB98200CF19E4 /* YummyItem.m in Sources */,
+				E20C4656150EB99D00CF19E4 /* ASIAuthenticationDialog.m in Sources */,
+				E20C4657150EB99D00CF19E4 /* ASIDataCompressor.m in Sources */,
+				E20C4658150EB99D00CF19E4 /* ASIDataDecompressor.m in Sources */,
+				E20C4659150EB99D00CF19E4 /* ASIDownloadCache.m in Sources */,
+				E20C465A150EB99D00CF19E4 /* ASIFormDataRequest.m in Sources */,
+				E20C465B150EB99D00CF19E4 /* ASIHTTPRequest.m in Sources */,
+				E20C465C150EB99D00CF19E4 /* ASIInputStream.m in Sources */,
+				E20C465D150EB99D00CF19E4 /* ASINetworkQueue.m in Sources */,
+				E20C465E150EB99D00CF19E4 /* Reachability.m in Sources */,
+				E241CF8E150EBD1B0093AB41 /* Logit.m in Sources */,
+				E241CF8F150EBD1B0093AB41 /* YummyMetroViewDataSourceStatic.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E2C2EAE914CF03C0005F259C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: ttron some (4MNSYLT4LX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "9AC3295C-52B5-409D-901B-A619E0ECD665";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2C2EAEA14CF03C0005F259C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: ttron some (4MNSYLT4LX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "9AC3295C-52B5-409D-901B-A619E0ECD665";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2C2EAEC14CF03C0005F259C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yummy OnMe/Yummy.OnMe-Prefix.pch";
+				INFOPLIST_FILE = "Yummy OnMe/Yummy.JustOn.Me-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = Yummy.JustOn.Me;
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E2C2EAED14CF03C0005F259C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yummy OnMe/Yummy.OnMe-Prefix.pch";
+				INFOPLIST_FILE = "Yummy OnMe/Yummy.JustOn.Me-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = Yummy.JustOn.Me;
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2C2EACD14CF03BF005F259C /* Build configuration list for PBXProject "Yummy.JustOn.Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2C2EAE914CF03C0005F259C /* Debug */,
+				E2C2EAEA14CF03C0005F259C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2C2EAEB14CF03C0005F259C /* Build configuration list for PBXNativeTarget "Yummy.JustOn.Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2C2EAEC14CF03C0005F259C /* Debug */,
+				E2C2EAED14CF03C0005F259C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E20C45F8150EB65E00CF19E4 /* Yummy_JustOn_Me.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E20C45F9150EB65E00CF19E4 /* Yummy_JustOn_Me.xcdatamodel */,
+			);
+			currentVersion = E20C45F9150EB65E00CF19E4 /* Yummy_JustOn_Me.xcdatamodel */;
+			path = Yummy_JustOn_Me.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E2C2EACA14CF03BF005F259C /* Project object */;
+}

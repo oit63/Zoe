@@ -1,0 +1,3 @@
+In file included from /Users/keithapeters/Documents/iPhoneUIBook/HUD/Classes/HUDView.m:9:
+/Users/keithapeters/Documents/iPhoneUIBook/HUD/Classes/HUDView.h:16: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+/Users/keithapeters/Documents/iPhoneUIBook/HUD/Classes/HUDView.h:16: warning: 'assign' attribute (default) not appropriate for non-gc object property 'selectedPod'

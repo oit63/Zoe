@@ -1,0 +1,206 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* FallingBallsRemake */ = {
+		activeExec = 0;
+		executables = (
+			6E04F5340F88EF4E00F6B0CD /* FallingBallsRemake */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* FallingBallsRemakeViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1104, 572}}";
+			sepNavSelRange = "{275, 0}";
+			sepNavVisRange = "{0, 311}";
+			sepNavWindowFrame = "{{15, 0}, {1262, 878}}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* FallingBallsRemakeViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1104, 1836}}";
+			sepNavSelRange = "{2130, 0}";
+			sepNavVisRange = "{1455, 1010}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 6E04F5340F88EF4E00F6B0CD /* FallingBallsRemake */;
+		activeSDKPreference = iphoneos2.2.1;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* FallingBallsRemake */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* FallingBallsRemake */,
+		);
+		codeSenseManager = 6E04F53F0F88EF6E00F6B0CD /* Code sense */;
+		executables = (
+			6E04F5340F88EF4E00F6B0CD /* FallingBallsRemake */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					926,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					886,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 261011408;
+			PBXWorkspaceStateSaveDate = 261011408;
+		};
+		perUserProjectItems = {
+			6E04F55F0F88FE4300F6B0CD /* PBXTextBookmark */ = 6E04F55F0F88FE4300F6B0CD /* PBXTextBookmark */;
+			6E04F5600F88FE4300F6B0CD /* PBXTextBookmark */ = 6E04F5600F88FE4300F6B0CD /* PBXTextBookmark */;
+			6E16D1C20F8F968100281A85 /* PBXTextBookmark */ = 6E16D1C20F8F968100281A85 /* PBXTextBookmark */;
+			6E6AD6BA0F8EB5A000F2F87B /* PBXTextBookmark */ = 6E6AD6BA0F8EB5A000F2F87B /* PBXTextBookmark */;
+			6E80CA3C0F89C32200389891 /* PlistBookmark */ = 6E80CA3C0F89C32200389891 /* PlistBookmark */;
+			6E80CA3D0F89C32200389891 /* PBXTextBookmark */ = 6E80CA3D0F89C32200389891 /* PBXTextBookmark */;
+			6E80CA3F0F89C32200389891 /* PlistBookmark */ = 6E80CA3F0F89C32200389891 /* PlistBookmark */;
+		};
+		sourceControlManager = 6E04F53E0F88EF6E00F6B0CD /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	6E04F5340F88EF4E00F6B0CD /* FallingBallsRemake */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = FallingBallsRemake;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+	};
+	6E04F53E0F88EF6E00F6B0CD /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	6E04F53F0F88EF6E00F6B0CD /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	6E04F55F0F88FE4300F6B0CD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* FallingBallsRemakeViewController.h */;
+		name = "FallingBallsRemakeViewController.h: 9";
+		rLen = 148;
+		rLoc = 162;
+		rType = 0;
+		vrLen = 285;
+		vrLoc = 0;
+	};
+	6E04F5600F88FE4300F6B0CD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* FallingBallsRemakeViewController.m */;
+		name = "FallingBallsRemakeViewController.m: 59";
+		rLen = 49;
+		rLoc = 2207;
+		rType = 0;
+		vrLen = 820;
+		vrLoc = 0;
+	};
+	6E16D1C20F8F968100281A85 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* FallingBallsRemakeViewController.m */;
+		name = "FallingBallsRemakeViewController.m: 63";
+		rLen = 0;
+		rLoc = 2130;
+		rType = 0;
+		vrLen = 1010;
+		vrLoc = 1455;
+	};
+	6E6AD6BA0F8EB5A000F2F87B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* FallingBallsRemakeViewController.m */;
+		name = "FallingBallsRemakeViewController.m: 73";
+		rLen = 438;
+		rLoc = 2262;
+		rType = 0;
+		vrLen = 831;
+		vrLoc = 1795;
+	};
+	6E80CA3C0F89C32200389891 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 6E04F5530F88FBB100F6B0CD /* Entitlement.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/keithapeters/Documents/iPhoneUIBook/FallingBallsRemake/Entitlement.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	6E80CA3D0F89C32200389891 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* FallingBallsRemakeViewController.h */;
+		name = "FallingBallsRemakeViewController.h: 11";
+		rLen = 0;
+		rLoc = 275;
+		rType = 0;
+		vrLen = 311;
+		vrLoc = 0;
+	};
+	6E80CA3F0F89C32200389891 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 6E04F5530F88FBB100F6B0CD /* Entitlement.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/keithapeters/Documents/iPhoneUIBook/FallingBallsRemake/Entitlement.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+}

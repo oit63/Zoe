@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1171" systemVersion="11D50" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="YummyGroup" representedClassName="YummyGroup" syncable="YES">
+        <attribute name="bgColorString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="groupName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="yummyItems" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="YummyItem" syncable="YES"/>
+    </entity>
+    <entity name="YummyItem" representedClassName="YummyItem" syncable="YES">
+        <attribute name="bgColorString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageURLString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastFetchDatime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uid" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="YummyGroup" positionX="-576" positionY="45" width="128" height="105"/>
+        <element name="YummyItem" positionX="-317" positionY="45" width="128" height="120"/>
+    </elements>
+</model>
